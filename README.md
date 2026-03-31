@@ -13,25 +13,16 @@ These skills act as a knowledge base for agents, enabling them to generate produ
 
 Perfect for developers, engineers, and teams seeking **consistency, quality, and expert-level output** in every interaction.
 
+> [!WARNING]
+> My **TRAE repositories** will unfortunately be updated less frequently.  
+> I am currently **very busy** and **looking for a job** *(Customer / Technical Support or Developer)* so I can *afford my first home*.  
+> Until I achieve this **stability**, updates will be limited.  
+>  
+> Thank you for your understanding! ❤️
+
 ---
 
 [![Star the project](https://img.shields.io/badge/⭐_Star_the_Project-black?style=for-the-badge)](https://github.com/HighMark-31/TRAE-Skills/stargazers) ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=HighMark-31.TRAE-Skills)
-
-<table>
-  <tr>
-    <td>
-      <a href="https://paypal.me/highmark31">
-        <img src="https://github.com/user-attachments/assets/b8ea8de2-bb0c-443b-80d6-2e7f71492942" width="400" alt="Donate to HighMark via PayPal" />
-      </a>
-    </td>
-    <td width="1rem"></td> 
-    <td>
-      <a href="https://github.com/HighMark-31/TRAE-Agents/blob/main/Thanks.md">
-        <img src="https://github.com/user-attachments/assets/dfe9bb0e-acbb-4b38-ba75-8b9cb9ced8e4" width="400" alt="Thanks for the support ❤️" />
-      </a>
-    </td>
-  </tr>
-</table>
 
 ---
 
@@ -41,34 +32,34 @@ Perfect for developers, engineers, and teams seeking **consistency, quality, and
 | :--- | :--- | :--- | :--- |
 | **🔹 ️ Frontend** | Accessibility Audit | [ℹ️](./frontend/Accessibility_Audit.md) | [👆 View](./frontend/Accessibility_Audit.md) |
 |  | API Data Fetching (TanStack) | [ℹ️](./frontend/API_Data_Fetching_TanStack.md) | [👆 View](./frontend/API_Data_Fetching_TanStack.md) |
-| **🔹 ️ Architecture** | Authentication Strategy Selection | [ℹ️](./architecture/Authentication_Strategy_Selection.md) | [👆 View](./architecture/Authentication_Strategy_Selection.md) |
+|  | Authentication Strategy Selection | [ℹ️](./architecture/Authentication_Strategy_Selection.md) | [👆 View](./architecture/Authentication_Strategy_Selection.md) |
 |  | BFF Pattern Implementation | [ℹ️](./architecture/BFF_Pattern_Implementation.md) | [👆 View](./architecture/BFF_Pattern_Implementation.md) |
-| **🔹 ️ Security** | Code Review Security Checklist | [ℹ️](./security/Code_Review_Security.md) | [👆 View](./security/Code_Review_Security.md) |
-| **🔹 ️ Frontend** | Custom React Hook Creation | [ℹ️](./frontend/Custom_React_Hook_Creation.md) | [👆 View](./frontend/Custom_React_Hook_Creation.md) |
-| **🔹 ️ Architecture** | Database Selection (SQL vs NoSQL) | [ℹ️](./architecture/Database_Selection_SQL_vs_NoSQL.md) | [👆 View](./architecture/Database_Selection_SQL_vs_NoSQL.md) |
-| **🔹 🧪 Testing** | E2E Testing (Playwright) | [ℹ️](./testing/E2E_Testing_Playwright.md) | [👆 View](./testing/E2E_Testing_Playwright.md) |
-| **🔹 ️ Architecture** | Event Driven Architecture | [ℹ️](./architecture/Event_Driven_Architecture_Basics.md) | [👆 View](./architecture/Event_Driven_Architecture_Basics.md) |
-| **🔹 ️ Frontend** | Form Handling (ReactHookForm) | [ℹ️](./frontend/Form_Handling_ReactHookForm.md) | [👆 View](./frontend/Form_Handling_ReactHookForm.md) |
+|  | Code Review Security Checklist | [ℹ️](./security/Code_Review_Security.md) | [👆 View](./security/Code_Review_Security.md) |
+|  | Custom React Hook Creation | [ℹ️](./frontend/Custom_React_Hook_Creation.md) | [👆 View](./frontend/Custom_React_Hook_Creation.md) |
+|  | Database Selection (SQL vs NoSQL) | [ℹ️](./architecture/Database_Selection_SQL_vs_NoSQL.md) | [👆 View](./architecture/Database_Selection_SQL_vs_NoSQL.md) |
+|  | E2E Testing (Playwright) | [ℹ️](./testing/E2E_Testing_Playwright.md) | [👆 View](./testing/E2E_Testing_Playwright.md) |
+|  | Event Driven Architecture | [ℹ️](./architecture/Event_Driven_Architecture_Basics.md) | [👆 View](./architecture/Event_Driven_Architecture_Basics.md) |
+|  | Form Handling (ReactHookForm) | [ℹ️](./frontend/Form_Handling_ReactHookForm.md) | [👆 View](./frontend/Form_Handling_ReactHookForm.md) |
 |  | Frontend Error Boundary | [ℹ️](./frontend/Frontend_Error_Boundary.md) | [👆 View](./frontend/Frontend_Error_Boundary.md) |
-| **🔹 ️ Architecture** | Frontend-Backend Communication | [ℹ️](./architecture/Frontend_Backend_Communication_Patterns.md) | [👆 View](./architecture/Frontend_Backend_Communication_Patterns.md) |
-| **🔹 ️ Frontend** | Global State (Redux Toolkit) | [ℹ️](./frontend/Global_State_Management_Redux.md) | [👆 View](./frontend/Global_State_Management_Redux.md) |
-| **🔹 ️ Security** | Input Validation (Zod) | [ℹ️](./security/Input_Validation_Zod.md) | [👆 View](./security/Input_Validation_Zod.md) |
-| **🔹 ️ Frontend** | Internationalization (i18n) | [ℹ️](./frontend/Internationalization_i18n.md) | [👆 View](./frontend/Internationalization_i18n.md) |
-| **🔹 ️ Security** | JWT Authentication | [ℹ️](./security/JWT_Authentication.md) | [👆 View](./security/JWT_Authentication.md) |
-| **🔹 ️ Architecture** | Microservices vs Monolith | [ℹ️](./architecture/Microservices_vs_Monolith_Decision.md) | [👆 View](./architecture/Microservices_vs_Monolith_Decision.md) |
+|  | Frontend-Backend Communication | [ℹ️](./architecture/Frontend_Backend_Communication_Patterns.md) | [👆 View](./architecture/Frontend_Backend_Communication_Patterns.md) |
+|  | Global State (Redux Toolkit) | [ℹ️](./frontend/Global_State_Management_Redux.md) | [👆 View](./frontend/Global_State_Management_Redux.md) |
+|  | Input Validation (Zod) | [ℹ️](./security/Input_Validation_Zod.md) | [👆 View](./security/Input_Validation_Zod.md) |
+|  | Internationalization (i18n) | [ℹ️](./frontend/Internationalization_i18n.md) | [👆 View](./frontend/Internationalization_i18n.md) |
+|  | JWT Authentication | [ℹ️](./security/JWT_Authentication.md) | [👆 View](./security/JWT_Authentication.md) |
+|  | Microservices vs Monolith | [ℹ️](./architecture/Microservices_vs_Monolith_Decision.md) | [👆 View](./architecture/Microservices_vs_Monolith_Decision.md) |
 |  | Multi-Tenancy Architecture | [ℹ️](./architecture/Multi_Tenancy_Architecture.md) | [👆 View](./architecture/Multi_Tenancy_Architecture.md) |
-| **🔹 ️ Security** | Rate Limiting (Redis) | [ℹ️](./security/Rate_Limiting_Redis.md) | [👆 View](./security/Rate_Limiting_Redis.md) |
+|  | Rate Limiting (Redis) | [ℹ️](./security/Rate_Limiting_Redis.md) | [👆 View](./security/Rate_Limiting_Redis.md) |
 |  | RBAC Implementation | [ℹ️](./security/RBAC_Implementation.md) | [👆 View](./security/RBAC_Implementation.md) |
-| **🔹 ️ Frontend** | React Component Optimization | [ℹ️](./frontend/React_Component_Optimization.md) | [👆 View](./frontend/React_Component_Optimization.md) |
+|  | React Component Optimization | [ℹ️](./frontend/React_Component_Optimization.md) | [👆 View](./frontend/React_Component_Optimization.md) |
 |  | Responsive UI (Tailwind) | [ℹ️](./frontend/Responsive_UI_Design_Tailwind.md) | [👆 View](./frontend/Responsive_UI_Design_Tailwind.md) |
-| **🔹 ️ Architecture** | REST vs GraphQL Selection | [ℹ️](./architecture/REST_vs_GraphQL_Selection.md) | [👆 View](./architecture/REST_vs_GraphQL_Selection.md) |
-| **🔹 ️ Frontend** | Route Protection (React Router) | [ℹ️](./frontend/Route_Protection_React_Router.md) | [👆 View](./frontend/Route_Protection_React_Router.md) |
-| **🔹 ️ Architecture** | Scaling Strategies | [ℹ️](./architecture/Scaling_Strategies_Horizontal_vs_Vertical.md) | [👆 View](./architecture/Scaling_Strategies_Horizontal_vs_Vertical.md) |
-| **🔹 ️ Security** | Secure Env Var Handling | [ℹ️](./security/Secure_Env_Var_Handling.md) | [👆 View](./security/Secure_Env_Var_Handling.md) |
-| **🔹 ️ Architecture** | Serverless Architecture | [ℹ️](./architecture/Serverless_Architecture_Considerations.md) | [👆 View](./architecture/Serverless_Architecture_Considerations.md) |
+|  | REST vs GraphQL Selection | [ℹ️](./architecture/REST_vs_GraphQL_Selection.md) | [👆 View](./architecture/REST_vs_GraphQL_Selection.md) |
+|  | Route Protection (React Router) | [ℹ️](./frontend/Route_Protection_React_Router.md) | [👆 View](./frontend/Route_Protection_React_Router.md) |
+|  | Scaling Strategies | [ℹ️](./architecture/Scaling_Strategies_Horizontal_vs_Vertical.md) | [👆 View](./architecture/Scaling_Strategies_Horizontal_vs_Vertical.md) |
+|  | Secure Env Var Handling | [ℹ️](./security/Secure_Env_Var_Handling.md) | [👆 View](./security/Secure_Env_Var_Handling.md) |
+|  | Serverless Architecture | [ℹ️](./architecture/Serverless_Architecture_Considerations.md) | [👆 View](./architecture/Serverless_Architecture_Considerations.md) |
 |  | SSR vs CSR Decision | [ℹ️](./architecture/SSR_vs_CSR_Decision_Matrix.md) | [👆 View](./architecture/SSR_vs_CSR_Decision_Matrix.md) |
 |  | Stack Selection Criteria | [ℹ️](./architecture/Stack_Selection_Criteria.md) | [👆 View](./architecture/Stack_Selection_Criteria.md) |
-| **🔹 🧪 Testing** | Unit Test Generation (Jest) | [ℹ️](./testing/Unit_Test_Generation_Jest.md) | [👆 View](./testing/Unit_Test_Generation_Jest.md) |
+|  | Unit Test Generation (Jest) | [ℹ️](./testing/Unit_Test_Generation_Jest.md) | [👆 View](./testing/Unit_Test_Generation_Jest.md) |
 | **💻 Backend** | API REST Endpoint Design | [ℹ️](./backend/API_REST_Endpoint_Design.md) | [👆 View](./backend/API_REST_Endpoint_Design.md) |
 |  | API Versioning Strategies | [ℹ️](./backend/API_Versioning_Strategies.md) | [👆 View](./backend/API_Versioning_Strategies.md) |
 |  | Background Jobs with BullMQ | [ℹ️](./backend/Background_Jobs_BullMQ.md) | [👆 View](./backend/Background_Jobs_BullMQ.md) |
