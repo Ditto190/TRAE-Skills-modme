@@ -1,62 +1,81 @@
-# Code Comments Best Practices
+# Skill: Code Commenting Best Practices
+
+## Purpose
+To write meaningful, concise, and helpful comments that explain the "why" behind complex code, without cluttering the codebase with obvious or redundant information. Good comments act as documentation for future developers (including your future self).
+
+## When to Use
+- When implementing a non-obvious algorithm or workaround
+- To document complex business rules that aren't clear from the code alone
+- When dealing with technical debt or temporary hacks (e.g., `TODO`, `FIXME`)
+- To explain why a specific library or external API is used in a certain way
 
 ## Procedure
 
-### 1. Self-Documenting Code
-Prioritize clean code over comments.
+### 1. Types of Comments
+- **Documentation Comments (Docstrings)**: Explain *what* a function or class does, its parameters, and return values.
+- **Implementation Comments**: Explain *how* or *why* a specific block of code works.
+- **TODO/FIXME Comments**: Track pending work or known issues.
 
-```typescript
-// BAD: Comment explaining a cryptic name
-const d = 86400; // seconds in a day
+### 2. The "Why", Not the "What"
+Code explains the "What" and "How". Comments should explain the "Why".
 
-// GOOD: Name explains itself
-const SECONDS_IN_A_DAY = 86400;
+**❌ BAD (Redundant)**:
+```javascript
+// Increment i by 1
+i++;
 ```
 
-### 2. Using JSDoc/TSDoc
-Use structured comments for public APIs, functions, and classes to enable IDE intellisense.
-
-```typescript
-/**
- * Calculates the discounted price of a product.
- * @param price - The original price in cents.
- * @param discount - The discount percentage (0-100).
- * @returns The final price in cents.
- * @throws {Error} If discount is outside the valid range.
- */
-function calculateDiscount(price: number, discount: number): number {
-  if (discount < 0 || discount > 100) throw new Error('Invalid discount');
-  return price * (1 - discount / 100);
+**✅ GOOD (Explains intent)**:
+```javascript
+// We skip the first element because it's a header in the CSV
+for (let i = 1; i < data.length; i++) {
+  // ...
 }
 ```
 
-### 3. Explaining the "Why"
-Use comments to explain complex logic, hacks, or business requirements that aren't obvious.
+### 3. Using JSDoc (for JavaScript/TypeScript)
+Standardize function documentation so editors can provide better IntelliSense.
 
 ```typescript
-// We use a retry limit of 3 because the external API 
-// occasionally fails with a 503 error due to rate limiting.
-const RETRY_LIMIT = 3;
+/**
+ * Calculates the final price after tax and discounts.
+ * 
+ * @param price - The base price of the item.
+ * @param taxRate - The tax rate as a decimal (e.g., 0.22 for 22%).
+ * @param discount - A fixed discount amount.
+ * @returns The final price rounded to 2 decimal places.
+ * 
+ * @example
+ * calculatePrice(100, 0.22, 10) // returns 112
+ */
+function calculatePrice(price: number, taxRate: number, discount: number): number {
+  // ...
+}
+```
 
-// HACK: This timeout is necessary to wait for the legacy 
-// animation library to finish its internal state update.
+### 4. Handling Workarounds
+Always document when you are doing something unusual to fix a bug or handle an edge case.
+
+```javascript
+// NOTE: We use a 50ms timeout here because the third-party modal 
+// needs time to mount before we can focus the input field.
+// See issue #124 for more details.
 setTimeout(() => {
-  renderUI();
-}, 100);
+  inputRef.current.focus();
+}, 50);
 ```
 
-### 4. TODOs and FIXMEs
-Mark incomplete or problematic areas clearly.
+### 5. Managing TODOs
+Don't just leave `// TODO: fix this`. Be specific and include your name or a ticket number.
 
-```typescript
-// TODO: Refactor this to use the new PricingService once it's ready.
-// FIXME: This logic fails when the user has multiple active subscriptions.
+```javascript
+// TODO(JohnDoe): Refactor this to use the new GraphQL API once it's deployed. 
+// See ticket JIRA-456.
 ```
 
-## Constraints
-- **No Redundancy**: Avoid `// This is a user class` above `class User`.
-- **Delete Dead Code**: Don't comment out code; let Git handle the history.
-- **Stay Up to Date**: A misleading comment is worse than no comment. Update comments when the code changes.
-
-## Expected Output
-A codebase where comments provide valuable context and intent, rather than cluttering the logic.
+## Best Practices
+- **Good code is self-documenting**: Before writing a comment, ask: "Can I make this code clearer by renaming a variable or extracting a function?"
+- **Keep comments up to date**: An incorrect comment is worse than no comment at all. Update comments during refactoring.
+- **Avoid "Commented-out code"**: Don't leave old code in comments. That's what Git is for. Delete it.
+- **Don't use comments to apologize**: If code is bad, refactor it instead of writing a comment explaining how bad it is.
+- **Be professional**: Avoid jokes, frustration, or personal notes in comments. They are part of the permanent codebase.

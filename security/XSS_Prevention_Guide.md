@@ -1,77 +1,94 @@
-# Skill: XSS Prevention Guide
+# Skill: XSS Prevention & Sanitization
 
 ## Purpose
-To prevent cross-site scripting.
+To protect users from Cross-Site Scripting (XSS) attacks, where malicious actors inject scripts into a web application to steal cookies, hijack sessions, or deface websites. XSS occurs when untrusted data is rendered on a page without proper validation or encoding.
 
 ## When to Use
-- Sanitization and escaping.
-- When the specific requirement for XSS Prevention Guide arises in the project.
+- When displaying user-generated content (e.g., comments, profiles, forum posts)
+- When building search results pages that reflect user queries
+- When using dangerouslySetInnerHTML in React or similar features in other frameworks
+- To secure URLs that accept dynamic parameters (e.g., `?redirect_url=...`)
 
 ## Procedure
 
-### 1. Data Escaping (Output)
-Always escape data before rendering it in HTML, attributes, or JavaScript.
+### 1. The Strategy: Encode vs. Sanitize
+- **Encoding**: Convert characters to their HTML entities (e.g., `<` becomes `&lt;`). Use this for simple text display. Most modern frameworks (React, Vue) do this automatically.
+- **Sanitization**: Remove or strip dangerous HTML tags (e.g., `<script>`) while allowing safe ones (e.g., `<b>`). Use this when you *must* allow users to provide some HTML (like a rich text editor).
 
+### 2. Implementation: HTML Sanitization (Node.js/Frontend)
+Using the `dompurify` library, which is the industry standard.
+
+**Installation**:
+```bash
+npm install dompurify jsdom # jsdom is needed for backend usage
+```
+
+**Usage (Backend/Node.js)**:
 ```javascript
-// Example: Escaping for HTML body
-function escapeHTML(str) {
-  const p = document.createElement('p');
-  p.textContent = str;
-  return p.innerHTML;
+const createDOMPurify = require('dompurify');
+const { JSDOM } = require('jsdom');
+
+const window = new JSDOM('').window;
+const DOMPurify = createDOMPurify(window);
+
+function cleanUserInput(dirtyHtml) {
+  return DOMPurify.sanitize(dirtyHtml, {
+    ALLOWED_TAGS: ['b', 'i', 'em', 'strong', 'a'],
+    ALLOWED_ATTR: ['href']
+  });
 }
-
-// In React/Vue, this is handled automatically unless using dangerouslySetInnerHTML
-const UserComment = ({ text }) => <div>{text}</div>; 
 ```
 
-### 2. Data Sanitization (Input)
-Sanitize HTML input if you must allow some tags (e.g., in a CMS).
+**Usage (Frontend/React)**:
+```tsx
+import DOMPurify from 'dompurify';
 
+export const UserContent = ({ html }: { html: string }) => {
+  // Always sanitize before using dangerouslySetInnerHTML
+  const cleanHtml = DOMPurify.sanitize(html);
+  
+  return <div dangerouslySetInnerHTML={{ __html: cleanHtml }} />;
+};
+```
+
+### 3. Securing URLs (Redirects)
+Never redirect to a URL provided by a user without validation.
+
+**❌ VULNERABLE**:
 ```javascript
-import sanitizeHtml from 'sanitize-html';
+app.get('/login', (req, res) => {
+  const next = req.query.next;
+  res.redirect(next); // Vulnerable to Open Redirect (next=javascript:alert(1))
+});
+```
 
-const dirty = '<script>alert("xss")</script><b>Hello</b>';
-const clean = sanitizeHtml(dirty, {
-  allowedTags: ['b', 'i', 'em', 'strong', 'a'],
-  allowedAttributes: {
-    'a': ['href']
+**✅ SECURE**:
+```javascript
+function safeRedirect(url) {
+  // Only allow relative paths or a specific whitelist of domains
+  if (url.startsWith('/') && !url.startsWith('//')) {
+    return url;
   }
-});
-// Result: <b>Hello</b>
+  return '/dashboard'; // Default fallback
+}
 ```
 
-### 3. Content Security Policy (CSP)
-Implement a strict CSP header to block unauthorized scripts.
+### 4. Input Validation (Zod)
+Use Zod to ensure input is in the expected format before it even reaches your sanitization logic.
 
 ```javascript
-// Express with Helmet.js
-const helmet = require('helmet');
+const { z } = require('zod');
 
-app.use(helmet.contentSecurityPolicy({
-  directives: {
-    defaultSrc: ["'self'"],
-    scriptSrc: ["'self'", "trusted-scripts.com"],
-    objectSrc: ["'none'"],
-    upgradeInsecureRequests: [],
-  },
-}));
-```
-
-### 4. HTTP-Only Cookies
-Store sensitive data (like JWTs) in `HttpOnly` cookies to prevent access via `document.cookie`.
-
-```javascript
-res.cookie('token', jwt, {
-  httpOnly: true,
-  secure: true, // Only over HTTPS
-  sameSite: 'Strict'
+const CommentSchema = z.object({
+  content: z.string().min(1).max(1000), // Enforce length limits
+  author: z.string().regex(/^[a-zA-Z0-9]+$/) // Only allow alphanumeric
 });
 ```
 
-## Constraints
-- **Context Awareness**: Escaping for an HTML attribute (e.g., `href`) is different from escaping for an HTML body.
-- **Avoid InnerHTML**: Use `textContent` or `innerText` instead of `innerHTML` whenever possible.
-- **No Inline Scripts**: Avoid `onclick`, `onmouseover`, etc., and inline `<script>` tags.
-
-## Expected Output
-An application that effectively neutralizes malicious scripts injected by users, protecting other users from session hijacking and data theft.
+## Best Practices
+- **Content Security Policy (CSP)**: CSP is your second line of defense. Even if XSS occurs, a good CSP will prevent the malicious script from executing.
+- **HttpOnly Cookies**: Store session tokens in cookies with the `HttpOnly` flag. This makes them inaccessible to JavaScript, preventing them from being stolen via XSS.
+- **Sanitize on Output**: Always sanitize data just before you render it, rather than just before you save it to the database. This ensures that even if your sanitization logic improves later, your stored data remains "raw".
+- **Avoid `eval()` and `new Function()`**: These can be used to execute arbitrary strings as code.
+- **Validate Everything**: Treat all data from the client (URLs, cookies, headers, body) as untrusted.
+- **Use Modern Frameworks**: React and Vue provide built-in protection by encoding text by default. Use their "dangerously" features only when absolutely necessary and with extreme caution.

@@ -120,6 +120,8 @@ Perfect for developers, engineers, and teams seeking **consistency, quality, and
 |  | React Native Navigation | [ℹ️](./mobile/React_Native_Navigation.md) | [👆 View](./mobile/React_Native_Navigation.md) |
 |  | React Native Reanimated | [ℹ️](./mobile/React_Native_Reanimated.md) | [👆 View](./mobile/React_Native_Reanimated.md) |
 |  | React Native Setup (Expo) | [ℹ️](./mobile/React_Native_Setup_Expo.md) | [👆 View](./mobile/React_Native_Setup_Expo.md) |
+|  | Biometric Authentication (Expo) | [ℹ️](./mobile/Biometric_Authentication_Expo.md) | [👆 View](./mobile/Biometric_Authentication_Expo.md) |
+|  | Deep Linking (React Navigation) | [ℹ️](./mobile/Deep_Linking_React_Navigation.md) | [👆 View](./mobile/Deep_Linking_React_Navigation.md) |
 | **🔧 DevOps** | Ansible Playbook Creation | [ℹ️](./devops/Ansible_Playbook_Creation.md) | [👆 View](./devops/Ansible_Playbook_Creation.md) |
 |  | Automated Database Backups | [ℹ️](./devops/Automated_Database_Backups.md) | [👆 View](./devops/Automated_Database_Backups.md) |
 |  | AWS Lambda Function Design | [ℹ️](./devops/AWS_Lambda_Function_Design.md) | [👆 View](./devops/AWS_Lambda_Function_Design.md) |
@@ -149,6 +151,22 @@ Perfect for developers, engineers, and teams seeking **consistency, quality, and
 |  | OWASP Top 10 Mitigation | [ℹ️](./security/OWASP_Top_10_Mitigation.md) | [👆 View](./security/OWASP_Top_10_Mitigation.md) |
 |  | Secret Scanning in CI/CD | [ℹ️](./security/Secret_Scanning_CI_CD.md) | [👆 View](./security/Secret_Scanning_CI_CD.md) |
 |  | XSS Prevention Guide | [ℹ️](./security/XSS_Prevention_Guide.md) | [👆 View](./security/XSS_Prevention_Guide.md) |
+|  | CORS Configuration Best Practices | [ℹ️](./security/CORS_Configuration_Best_Practices.md) | [👆 View](./security/CORS_Configuration_Best_Practices.md) |
+|  | SQL Injection Prevention | [ℹ️](./security/SQL_Injection_Prevention.md) | [👆 View](./security/SQL_Injection_Prevention.md) |
+|  | OAuth2 & OIDC Implementation | [ℹ️](./security/OAuth2_OIDC_Implementation.md) | [👆 View](./security/OAuth2_OIDC_Implementation.md) |
+|  | Password Hashing Best Practices | [ℹ️](./security/Password_Hashing_Best_Practices.md) | [👆 View](./security/Password_Hashing_Best_Practices.md) |
+|  | Multi-factor Authentication (MFA) | [ℹ️](./backend/MFA_Implementation.md) | [👆 View](./backend/MFA_Implementation.md) |
+| **🧪 Testing** | API Integration Testing (Supertest) | [ℹ️](./testing/API_Integration_Testing_Supertest.md) | [👆 View](./testing/API_Integration_Testing_Supertest.md) |
+|  | Visual Regression Testing (Playwright) | [ℹ️](./testing/Visual_Regression_Testing_Playwright.md) | [👆 View](./testing/Visual_Regression_Testing_Playwright.md) |
+|  | Load & Performance Testing (k6) | [ℹ️](./testing/Load_Testing_k6.md) | [👆 View](./testing/Load_Testing_k6.md) |
+|  | Contract Testing (Pact) | [ℹ️](./testing/Consumer_Driven_Contract_Testing_Pact.md) | [👆 View](./testing/Consumer_Driven_Contract_Testing_Pact.md) |
+|  | Mutation Testing (Stryker) | [ℹ️](./testing/Mutation_Testing_Stryker.md) | [👆 View](./testing/Mutation_Testing_Stryker.md) |
+|  | Automated Accessibility Testing (Axe-core) | [ℹ️](./testing/Automated_Accessibility_Testing_Axe.md) | [👆 View](./testing/Automated_Accessibility_Testing_Axe.md) |
+|  | Snapshot Testing (Jest) | [ℹ️](./testing/Snapshot_Testing_Jest.md) | [👆 View](./testing/Snapshot_Testing_Jest.md) |
+|  | Test-Driven Development (TDD) | [ℹ️](./testing/Test_Driven_Development_TDD.md) | [👆 View](./testing/Test_Driven_Development_TDD.md) |
+|  | Component Testing (RTL) | [ℹ️](./testing/Component_Testing_React_Testing_Library.md) | [👆 View](./testing/Component_Testing_React_Testing_Library.md) |
+|  | Mocking External Services (Jest) | [ℹ️](./testing/Mocking_External_Services_Jest.md) | [👆 View](./testing/Mocking_External_Services_Jest.md) |
+|  | Test Coverage & Quality (Istanbul) | [ℹ️](./testing/Test_Coverage_Quality_Istanbul.md) | [👆 View](./testing/Test_Coverage_Quality_Istanbul.md) |
 | **🤖 AI Engineering** | AI Agent Design Patterns | [ℹ️](./ai_engineering/AI_Agent_Design_Patterns.md) | [👆 View](./ai_engineering/AI_Agent_Design_Patterns.md) |
 |  | AI Model Evaluation | [ℹ️](./ai_engineering/AI_Model_Evaluation.md) | [👆 View](./ai_engineering/AI_Model_Evaluation.md) |
 |  | Fine-tuning Basics | [ℹ️](./ai_engineering/Fine_tuning_Basics.md) | [👆 View](./ai_engineering/Fine_tuning_Basics.md) |
@@ -159,6 +177,11 @@ Perfect for developers, engineers, and teams seeking **consistency, quality, and
 |  | RAG System Architecture | [ℹ️](./ai_engineering/RAG_System_Architecture.md) | [👆 View](./ai_engineering/RAG_System_Architecture.md) |
 |  | Speech-to-Text Implementation (Whisper) | [ℹ️](./ai_engineering/Speech_to_Text_Whisper.md) | [👆 View](./ai_engineering/Speech_to_Text_Whisper.md) |
 |  | Vector Database Setup | [ℹ️](./ai_engineering/Vector_Database_Setup.md) | [👆 View](./ai_engineering/Vector_Database_Setup.md) |
+|  | ML Model Quantization | [ℹ️](./ai_engineering/ML_Model_Quantization.md) | [👆 View](./ai_engineering/ML_Model_Quantization.md) |
+|  | Time Series Forecasting | [ℹ️](./ai_engineering/Time_Series_Forecasting.md) | [👆 View](./ai_engineering/Time_Series_Forecasting.md) |
+|  | Distributed Training (Horovod) | [ℹ️](./ai_engineering/Distributed_Training_Horovod.md) | [👆 View](./ai_engineering/Distributed_Training_Horovod.md) |
+|  | Computer Vision Object Detection | [ℹ️](./ai_engineering/Computer_Vision_Object_Detection.md) | [👆 View](./ai_engineering/Computer_Vision_Object_Detection.md) |
+|  | Data Drift Detection | [ℹ️](./ai_engineering/Data_Drift_Detection.md) | [👆 View](./ai_engineering/Data_Drift_Detection.md) |
 | **🏗️ Architecture** | Adapter Pattern in TypeScript | [ℹ️](./architecture/Adapter_Pattern_TypeScript.md) | [👆 View](./architecture/Adapter_Pattern_TypeScript.md) |
 |  | Clean Architecture in Node.js | [ℹ️](./architecture/Clean_Architecture_Node.md) | [👆 View](./architecture/Clean_Architecture_Node.md) |
 |  | CQRS Pattern Implementation | [ℹ️](./architecture/CQRS_Pattern_Implementation.md) | [👆 View](./architecture/CQRS_Pattern_Implementation.md) |
@@ -175,9 +198,15 @@ Perfect for developers, engineers, and teams seeking **consistency, quality, and
 |  | Semantic Versioning | [ℹ️](./code_management/Semantic_Versioning_Strategy.md) | [👆 View](./code_management/Semantic_Versioning_Strategy.md) |
 | **📝 Docs** | ADR Records | [ℹ️](./documentation/Architectural_Decision_Records_ADR.md) | [👆 View](./documentation/Architectural_Decision_Records_ADR.md) |
 |  | API Documentation | [ℹ️](./documentation/API_Documentation_Best_Practices.md) | [👆 View](./documentation/API_Documentation_Best_Practices.md) |
+|  | API Design Guidelines (REST) | [ℹ️](./documentation/API_Design_Guidelines_REST.md) | [👆 View](./documentation/API_Design_Guidelines_REST.md) |
 |  | Changelog Maintenance | [ℹ️](./documentation/Changelog_Maintenance.md) | [👆 View](./documentation/Changelog_Maintenance.md) |
 |  | Code Comments | [ℹ️](./documentation/Code_Comments_Best_Practices.md) | [👆 View](./documentation/Code_Comments_Best_Practices.md) |
+|  | Component Documentation (Storybook) | [ℹ️](./documentation/Component_Documentation_Storybook.md) | [👆 View](./documentation/Component_Documentation_Storybook.md) |
 |  | Contributing Guidelines | [ℹ️](./documentation/Contributing_Guidelines_CONTRIBUTING.md) | [👆 View](./documentation/Contributing_Guidelines_CONTRIBUTING.md) |
+|  | Diagramming with Mermaid.js | [ℹ️](./documentation/Diagramming_Mermaid_JS.md) | [👆 View](./documentation/Diagramming_Mermaid_JS.md) |
+|  | Effective User Documentation | [ℹ️](./documentation/Effective_User_Documentation.md) | [👆 View](./documentation/Effective_User_Documentation.md) |
 |  | Project Onboarding | [ℹ️](./documentation/Project_Onboarding_Guide.md) | [👆 View](./documentation/Project_Onboarding_Guide.md) |
+|  | Technical Spec Writing (RFC) | [ℹ️](./documentation/Technical_Spec_Writing.md) | [👆 View](./documentation/Technical_Spec_Writing.md) |
 |  | User Manual Creation | [ℹ️](./documentation/User_Manual_Creation.md) | [👆 View](./documentation/User_Manual_Creation.md) |
+|  | User Story Mapping | [ℹ️](./documentation/User_Story_Mapping.md) | [👆 View](./documentation/User_Story_Mapping.md) |
 |  | Writing Effective README | [ℹ️](./documentation/Writing_Effective_README.md) | [👆 View](./documentation/Writing_Effective_README.md) |
