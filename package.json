@@ -1,0 +1,28 @@
+{
+  "name": "trae-skills-modme",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portable skill catalog generator for TRAE markdown skills.",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test dist/tests/*.test.js",
+    "build:catalog": "npm run build && node dist/scripts/build-catalog.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ditto190/TRAE-Skills-modme.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ditto190/TRAE-Skills-modme/issues"
+  },
+  "homepage": "https://github.com/Ditto190/TRAE-Skills-modme#readme",
+  "dependencies": {
+    "yaml": "2.9.0",
+    "zod": "4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "26.0.0",
+    "typescript": "6.0.3"
+  }
+}
