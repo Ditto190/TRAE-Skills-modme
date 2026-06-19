@@ -138,6 +138,8 @@ export async function writeCatalogArtifacts(repositoryRoot: string): Promise<voi
   const { catalog, index } = await buildCatalogFromRepository(repositoryRoot);
   const outputDirectory = path.join(repositoryRoot, "catalog");
 
+  await (await import("node:fs/promises")).mkdir(outputDirectory, { recursive: true });
+
   await Promise.all([
     writeFile(path.join(outputDirectory, "skills.catalog.json"), `${JSON.stringify(catalog, null, 2)}\n`, "utf8"),
     writeFile(path.join(outputDirectory, "skills.index.json"), `${JSON.stringify(index, null, 2)}\n`, "utf8"),
