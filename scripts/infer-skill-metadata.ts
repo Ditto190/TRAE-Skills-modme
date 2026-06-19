@@ -103,9 +103,16 @@ export function inferSkillMetadata({
   }
 
   const heading = readHeading(markdownBody);
-  const title = frontmatter?.title ?? heading ?? readmeEntry?.skillName ?? metadataEntry?.name ?? titleFromId(id);
   if (!frontmatter?.title) {
-    inferredFrom.push(heading ? "markdown-heading:title" : readmeEntry?.skillName ? "README.md:title" : "metadata.json:title");
+    inferredFrom.push(
+      heading
+        ? "markdown-heading:title"
+        : readmeEntry?.skillName
+          ? "README.md:title"
+          : metadataEntry?.name
+            ? "metadata.json:title"
+            : "id:title",
+    );
   }
 
   const name = frontmatter?.name ?? metadataEntry?.name ?? readmeEntry?.skillName ?? title;
