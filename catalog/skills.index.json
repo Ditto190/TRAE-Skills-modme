@@ -1,0 +1,4409 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2026-06-19T20:43:44.201Z",
+  "skills": [
+    {
+      "id": "AI_Agent_Design_Patterns",
+      "name": "AI Agent Design Patterns",
+      "title": "AI Agent Design Patterns",
+      "category": "ai_engineering",
+      "path": "ai_engineering/AI_Agent_Design_Patterns.md",
+      "tags": [
+        "ai",
+        "agent",
+        "design",
+        "patterns",
+        "ai_engineering"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "AI_Experiment_Tracking",
+      "name": "AI Experiment Tracking",
+      "title": "AI Experiment Tracking",
+      "category": "ai_engineering",
+      "path": "ai_engineering/AI_Experiment_Tracking.md",
+      "tags": [
+        "ai_engineering",
+        "ai",
+        "experiment",
+        "tracking"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "AI_Model_Evaluation",
+      "name": "AI Model Evaluation",
+      "title": "AI Model Evaluation",
+      "category": "ai_engineering",
+      "path": "ai_engineering/AI_Model_Evaluation.md",
+      "tags": [
+        "ai",
+        "model",
+        "evaluation",
+        "ai_engineering"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "AI_Model_Serving",
+      "name": "AI Model Serving",
+      "title": "AI Model Serving",
+      "category": "ai_engineering",
+      "path": "ai_engineering/AI_Model_Serving.md",
+      "tags": [
+        "ai_engineering",
+        "ai",
+        "model",
+        "serving"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "AI_Monitoring_Observability",
+      "name": "AI Monitoring and Observability",
+      "title": "AI Monitoring and Observability",
+      "category": "ai_engineering",
+      "path": "ai_engineering/AI_Monitoring_Observability.md",
+      "tags": [
+        "ai_engineering",
+        "ai",
+        "monitoring",
+        "observability"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "AI_Pipeline_Automation",
+      "name": "AI Pipeline Automation",
+      "title": "AI Pipeline Automation",
+      "category": "ai_engineering",
+      "path": "ai_engineering/AI_Pipeline_Automation.md",
+      "tags": [
+        "ai_engineering",
+        "ai",
+        "pipeline",
+        "automation"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "AI_Safety_Ethics",
+      "name": "AI Safety and Ethics",
+      "title": "AI Safety and Ethics",
+      "category": "ai_engineering",
+      "path": "ai_engineering/AI_Safety_Ethics.md",
+      "tags": [
+        "ai_engineering",
+        "ai",
+        "safety",
+        "ethics"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "AI_Testing_Evaluation",
+      "name": "AI Testing and Evaluation",
+      "title": "AI Testing and Evaluation",
+      "category": "ai_engineering",
+      "path": "ai_engineering/AI_Testing_Evaluation.md",
+      "tags": [
+        "ai_engineering",
+        "ai",
+        "testing",
+        "evaluation"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Chain_of_Thought_Prompting",
+      "name": "Chain of Thought Prompting",
+      "title": "Chain of Thought Prompting",
+      "category": "ai_engineering",
+      "path": "ai_engineering/Chain_of_Thought_Prompting.md",
+      "tags": [
+        "ai_engineering",
+        "chain",
+        "of",
+        "thought",
+        "prompting"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Computer_Vision_Object_Detection",
+      "name": "Computer Vision Object Detection",
+      "title": "Computer Vision - Object Detection",
+      "category": "ai_engineering",
+      "path": "ai_engineering/Computer_Vision_Object_Detection.md",
+      "tags": [
+        "ai_engineering",
+        "computer",
+        "vision",
+        "object",
+        "detection"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Data_Drift_Detection",
+      "name": "Data Drift Detection",
+      "title": "Data Drift Detection",
+      "category": "ai_engineering",
+      "path": "ai_engineering/Data_Drift_Detection.md",
+      "tags": [
+        "ai_engineering",
+        "data",
+        "drift",
+        "detection"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Distributed_Training_Horovod",
+      "name": "Distributed Training (Horovod)",
+      "title": "Distributed Training (Horovod)",
+      "category": "ai_engineering",
+      "path": "ai_engineering/Distributed_Training_Horovod.md",
+      "tags": [
+        "ai_engineering",
+        "distributed",
+        "training",
+        "horovod"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Embedding_Techniques",
+      "name": "Embedding Techniques",
+      "title": "Embedding Techniques",
+      "category": "ai_engineering",
+      "path": "ai_engineering/Embedding_Techniques.md",
+      "tags": [
+        "ai_engineering",
+        "embedding",
+        "techniques"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Federated_Learning",
+      "name": "Federated Learning",
+      "title": "Federated Learning",
+      "category": "ai_engineering",
+      "path": "ai_engineering/Federated_Learning.md",
+      "tags": [
+        "ai_engineering",
+        "federated",
+        "learning"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Fine_tuning_Basics",
+      "name": "Fine tuning Basics",
+      "title": "Fine-tuning Basics",
+      "category": "ai_engineering",
+      "path": "ai_engineering/Fine_tuning_Basics.md",
+      "tags": [
+        "fine",
+        "tuning",
+        "basics",
+        "ai_engineering",
+        "guide"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Fine_Tuning_Custom_Models",
+      "name": "Fine-Tuning Custom Models",
+      "title": "Fine-Tuning Custom Models",
+      "category": "ai_engineering",
+      "path": "ai_engineering/Fine_Tuning_Custom_Models.md",
+      "tags": [
+        "ai_engineering",
+        "fine",
+        "tuning",
+        "custom",
+        "models"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Function_Calling",
+      "name": "Function Calling",
+      "title": "Function Calling",
+      "category": "ai_engineering",
+      "path": "ai_engineering/Function_Calling.md",
+      "tags": [
+        "ai_engineering",
+        "function",
+        "calling"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "LangChain_Basics",
+      "name": "LangChain Basics",
+      "title": "LangChain Basics",
+      "category": "ai_engineering",
+      "path": "ai_engineering/LangChain_Basics.md",
+      "tags": [
+        "langchain",
+        "basics",
+        "ai_engineering",
+        "guide"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "LLM_Caching_Strategies",
+      "name": "LLM Caching Strategies",
+      "title": "LLM Caching Strategies",
+      "category": "ai_engineering",
+      "path": "ai_engineering/LLM_Caching_Strategies.md",
+      "tags": [
+        "ai_engineering",
+        "llm",
+        "caching",
+        "strategies"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "LLM_Operations",
+      "name": "LLM Operations (LLMOps)",
+      "title": "LLM Operations (LLMOps)",
+      "category": "ai_engineering",
+      "path": "ai_engineering/LLM_Operations.md",
+      "tags": [
+        "ai_engineering",
+        "llm",
+        "operations"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Local_LLM_Running_Ollama",
+      "name": "Local LLM Running Ollama",
+      "title": "Local LLM Running (Ollama)",
+      "category": "ai_engineering",
+      "path": "ai_engineering/Local_LLM_Running_Ollama.md",
+      "tags": [
+        "local",
+        "llm",
+        "running",
+        "ollama",
+        "ai_engineering"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "ML_Model_Quantization",
+      "name": "ML Model Quantization",
+      "title": "ML Model Quantization",
+      "category": "ai_engineering",
+      "path": "ai_engineering/ML_Model_Quantization.md",
+      "tags": [
+        "ai_engineering",
+        "ml",
+        "model",
+        "quantization"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "MultiModal_AI",
+      "name": "Multi-Modal AI",
+      "title": "Multi-Modal AI",
+      "category": "ai_engineering",
+      "path": "ai_engineering/MultiModal_AI.md",
+      "tags": [
+        "ai_engineering",
+        "multimodal",
+        "ai"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "OpenAI_API_Integration",
+      "name": "OpenAI API Integration",
+      "title": "OpenAI API Integration",
+      "category": "ai_engineering",
+      "path": "ai_engineering/OpenAI_API_Integration.md",
+      "tags": [
+        "openai",
+        "api",
+        "integration",
+        "ai_engineering"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Prompt_Engineering_Basics",
+      "name": "Prompt Engineering Basics",
+      "title": "Prompt Engineering Basics",
+      "category": "ai_engineering",
+      "path": "ai_engineering/Prompt_Engineering_Basics.md",
+      "tags": [
+        "prompt",
+        "engineering",
+        "basics",
+        "ai_engineering",
+        "guide"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "RAG_System_Architecture",
+      "name": "RAG System Architecture",
+      "title": "RAG System Architecture",
+      "category": "ai_engineering",
+      "path": "ai_engineering/RAG_System_Architecture.md",
+      "tags": [
+        "rag",
+        "system",
+        "architecture",
+        "ai_engineering"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Reinforcement_Learning_Basics",
+      "name": "Reinforcement Learning Basics",
+      "title": "Reinforcement Learning Basics",
+      "category": "ai_engineering",
+      "path": "ai_engineering/Reinforcement_Learning_Basics.md",
+      "tags": [
+        "ai_engineering",
+        "reinforcement",
+        "learning",
+        "basics"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Speech_to_Text_Whisper",
+      "name": "Speech to Text Whisper",
+      "title": "Speech-to-Text Implementation (Whisper)",
+      "category": "ai_engineering",
+      "path": "ai_engineering/Speech_to_Text_Whisper.md",
+      "tags": [
+        "speech",
+        "to",
+        "text",
+        "whisper",
+        "ai_engineering"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Stream_Responses",
+      "name": "Stream Responses",
+      "title": "Stream Responses",
+      "category": "ai_engineering",
+      "path": "ai_engineering/Stream_Responses.md",
+      "tags": [
+        "ai_engineering",
+        "stream",
+        "responses"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Structured_Output_Parsing",
+      "name": "Structured Output Parsing",
+      "title": "Structured Output Parsing",
+      "category": "ai_engineering",
+      "path": "ai_engineering/Structured_Output_Parsing.md",
+      "tags": [
+        "ai_engineering",
+        "structured",
+        "output",
+        "parsing"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Time_Series_Forecasting",
+      "name": "Time Series Forecasting",
+      "title": "Time Series Forecasting",
+      "category": "ai_engineering",
+      "path": "ai_engineering/Time_Series_Forecasting.md",
+      "tags": [
+        "ai_engineering",
+        "time",
+        "series",
+        "forecasting"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Token_Optimization",
+      "name": "Token Optimization",
+      "title": "Token Optimization",
+      "category": "ai_engineering",
+      "path": "ai_engineering/Token_Optimization.md",
+      "tags": [
+        "ai_engineering",
+        "token",
+        "optimization"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Vector_Database_Setup",
+      "name": "Vector Database Setup",
+      "title": "Vector Database Setup",
+      "category": "ai_engineering",
+      "path": "ai_engineering/Vector_Database_Setup.md",
+      "tags": [
+        "vector",
+        "database",
+        "setup",
+        "ai_engineering"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Adapter_Pattern_TypeScript",
+      "name": "Adapter Pattern TypeScript",
+      "title": "Adapter Pattern in TypeScript",
+      "category": "architecture",
+      "path": "architecture/Adapter_Pattern_TypeScript.md",
+      "tags": [
+        "adapter",
+        "pattern",
+        "typescript",
+        "architecture"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "API_Gateway_Pattern",
+      "name": "API Gateway Pattern",
+      "title": "API Gateway Pattern",
+      "category": "architecture",
+      "path": "architecture/API_Gateway_Pattern.md",
+      "tags": [
+        "architecture",
+        "api",
+        "gateway",
+        "pattern"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Authentication_Strategy_Selection",
+      "name": "Authentication Strategy Selection",
+      "title": "Authentication Strategy Selection",
+      "category": "architecture",
+      "path": "architecture/Authentication_Strategy_Selection.md",
+      "tags": [
+        "authentication",
+        "strategy",
+        "selection",
+        "architecture"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "BFF_Pattern_Implementation",
+      "name": "BFF Pattern Implementation",
+      "title": "BFF Pattern Implementation (Backend for Frontend)",
+      "category": "architecture",
+      "path": "architecture/BFF_Pattern_Implementation.md",
+      "tags": [
+        "bff",
+        "pattern",
+        "implementation",
+        "architecture"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Clean_Architecture_Node",
+      "name": "Clean Architecture Node",
+      "title": "Clean Architecture in Node.js",
+      "category": "architecture",
+      "path": "architecture/Clean_Architecture_Node.md",
+      "tags": [
+        "clean",
+        "architecture",
+        "node"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "CQRS_Pattern_Implementation",
+      "name": "CQRS Pattern Implementation",
+      "title": "CQRS Pattern Implementation",
+      "category": "architecture",
+      "path": "architecture/CQRS_Pattern_Implementation.md",
+      "tags": [
+        "cqrs",
+        "pattern",
+        "implementation",
+        "architecture"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Database_Selection_SQL_vs_NoSQL",
+      "name": "Database Selection SQL vs NoSQL",
+      "title": "Database Selection (SQL vs NoSQL)",
+      "category": "architecture",
+      "path": "architecture/Database_Selection_SQL_vs_NoSQL.md",
+      "tags": [
+        "database",
+        "selection",
+        "sql",
+        "vs",
+        "nosql",
+        "architecture"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Domain_Driven_Design_Basics",
+      "name": "Domain Driven Design Basics",
+      "title": "Domain-Driven Design (DDD) Basics",
+      "category": "architecture",
+      "path": "architecture/Domain_Driven_Design_Basics.md",
+      "tags": [
+        "domain",
+        "driven",
+        "design",
+        "basics",
+        "architecture",
+        "guide"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Event_Driven_Architecture_Basics",
+      "name": "Event Driven Architecture Basics",
+      "title": "Event-Driven Architecture Basics",
+      "category": "architecture",
+      "path": "architecture/Event_Driven_Architecture_Basics.md",
+      "tags": [
+        "event",
+        "driven",
+        "architecture",
+        "basics",
+        "guide"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Frontend_Backend_Communication_Patterns",
+      "name": "Frontend Backend Communication Patterns",
+      "title": "Frontend-Backend Communication Patterns",
+      "category": "architecture",
+      "path": "architecture/Frontend_Backend_Communication_Patterns.md",
+      "tags": [
+        "frontend",
+        "backend",
+        "communication",
+        "patterns",
+        "architecture"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Microservices_vs_Monolith_Decision",
+      "name": "Microservices vs Monolith Decision",
+      "title": "Microservices vs Monolith Decision",
+      "category": "architecture",
+      "path": "architecture/Microservices_vs_Monolith_Decision.md",
+      "tags": [
+        "microservices",
+        "vs",
+        "monolith",
+        "decision",
+        "architecture"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Multi_Tenancy_Architecture",
+      "name": "Multi Tenancy Architecture",
+      "title": "Multi-Tenancy Architecture",
+      "category": "architecture",
+      "path": "architecture/Multi_Tenancy_Architecture.md",
+      "tags": [
+        "multi",
+        "tenancy",
+        "architecture"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "REST_vs_GraphQL_Selection",
+      "name": "REST vs GraphQL Selection",
+      "title": "REST vs GraphQL Selection",
+      "category": "architecture",
+      "path": "architecture/REST_vs_GraphQL_Selection.md",
+      "tags": [
+        "rest",
+        "vs",
+        "graphql",
+        "selection",
+        "architecture",
+        "api"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Saga_Pattern_Distributed_Transactions",
+      "name": "Saga Pattern for Distributed Transactions",
+      "title": "Saga Pattern for Distributed Transactions",
+      "category": "architecture",
+      "path": "architecture/Saga_Pattern_Distributed_Transactions.md",
+      "tags": [
+        "architecture",
+        "saga",
+        "pattern",
+        "distributed",
+        "transactions"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Scaling_Strategies_Horizontal_vs_Vertical",
+      "name": "Scaling Strategies Horizontal vs Vertical",
+      "title": "Scaling Strategies (Horizontal vs Vertical)",
+      "category": "architecture",
+      "path": "architecture/Scaling_Strategies_Horizontal_vs_Vertical.md",
+      "tags": [
+        "scaling",
+        "strategies",
+        "horizontal",
+        "vs",
+        "vertical",
+        "architecture"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Serverless_Architecture_Considerations",
+      "name": "Serverless Architecture Considerations",
+      "title": "Serverless Architecture Considerations",
+      "category": "architecture",
+      "path": "architecture/Serverless_Architecture_Considerations.md",
+      "tags": [
+        "serverless",
+        "architecture",
+        "considerations"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "SSR_vs_CSR_Decision_Matrix",
+      "name": "SSR vs CSR Decision Matrix",
+      "title": "SSR vs CSR Decision Matrix",
+      "category": "architecture",
+      "path": "architecture/SSR_vs_CSR_Decision_Matrix.md",
+      "tags": [
+        "ssr",
+        "vs",
+        "csr",
+        "decision",
+        "matrix",
+        "architecture"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Stack_Selection_Criteria",
+      "name": "Stack Selection Criteria",
+      "title": "Stack Selection Criteria",
+      "category": "architecture",
+      "path": "architecture/Stack_Selection_Criteria.md",
+      "tags": [
+        "stack",
+        "selection",
+        "criteria",
+        "architecture"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Advanced_RBAC",
+      "name": "Advanced RBAC",
+      "title": "Advanced RBAC (Role-Based Access Control)",
+      "category": "backend",
+      "path": "backend/Advanced_RBAC.md",
+      "tags": [
+        "advanced",
+        "rbac",
+        "backend"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "API_REST_Endpoint_Design",
+      "name": "API REST Endpoint Design",
+      "title": "API REST Endpoint Design",
+      "category": "backend",
+      "path": "backend/API_REST_Endpoint_Design.md",
+      "tags": [
+        "api",
+        "rest",
+        "endpoint",
+        "design",
+        "backend"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "API_Versioning_Strategies",
+      "name": "API Versioning Strategies",
+      "title": "API Versioning Strategies",
+      "category": "backend",
+      "path": "backend/API_Versioning_Strategies.md",
+      "tags": [
+        "api",
+        "versioning",
+        "strategies",
+        "backend"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Background_Jobs_BullMQ",
+      "name": "Background Jobs BullMQ",
+      "title": "Background Jobs (BullMQ)",
+      "category": "backend",
+      "path": "backend/Background_Jobs_BullMQ.md",
+      "tags": [
+        "background",
+        "jobs",
+        "bullmq",
+        "backend"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Caching_Strategy_Redis",
+      "name": "Caching Strategy Redis",
+      "title": "Caching Strategy (Redis)",
+      "category": "backend",
+      "path": "backend/Caching_Strategy_Redis.md",
+      "tags": [
+        "caching",
+        "strategy",
+        "redis",
+        "backend"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Database_Locking_Strategies",
+      "name": "Database Locking Strategies",
+      "title": "Database Locking Strategies",
+      "category": "backend",
+      "path": "backend/Database_Locking_Strategies.md",
+      "tags": [
+        "database",
+        "locking",
+        "strategies",
+        "backend"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Database_Schema_Migration",
+      "name": "Database Schema Migration",
+      "title": "Database Schema Migration",
+      "category": "backend",
+      "path": "backend/Database_Schema_Migration.md",
+      "tags": [
+        "database",
+        "schema",
+        "migration",
+        "backend"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Database_Seeding",
+      "name": "Database Seeding",
+      "title": "Database Seeding",
+      "category": "backend",
+      "path": "backend/Database_Seeding.md",
+      "tags": [
+        "database",
+        "seeding",
+        "backend"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Distributed_Transactions_Sagas",
+      "name": "Distributed Transactions Sagas",
+      "title": "Distributed Transactions (Sagas)",
+      "category": "backend",
+      "path": "backend/Distributed_Transactions_Sagas.md",
+      "tags": [
+        "distributed",
+        "transactions",
+        "sagas",
+        "backend"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Elasticsearch_Integration",
+      "name": "Elasticsearch Integration",
+      "title": "Elasticsearch Integration",
+      "category": "backend",
+      "path": "backend/Elasticsearch_Integration.md",
+      "tags": [
+        "elasticsearch",
+        "integration",
+        "backend"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Error_Handling_Express",
+      "name": "Error Handling Express",
+      "title": "Error Handling (Express)",
+      "category": "backend",
+      "path": "backend/Error_Handling_Express.md",
+      "tags": [
+        "error",
+        "handling",
+        "express",
+        "backend"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Express_Middleware_Creation",
+      "name": "Express Middleware Creation",
+      "title": "Express Middleware Creation",
+      "category": "backend",
+      "path": "backend/Express_Middleware_Creation.md",
+      "tags": [
+        "express",
+        "middleware",
+        "creation",
+        "backend"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Feature_Flag_Implementation",
+      "name": "Feature Flag Implementation",
+      "title": "Feature Flag Implementation",
+      "category": "backend",
+      "path": "backend/Feature_Flag_Implementation.md",
+      "tags": [
+        "feature",
+        "flag",
+        "implementation",
+        "backend"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "File_Storage_S3_MinIO",
+      "name": "File Storage S3 MinIO",
+      "title": "File Storage (S3/MinIO)",
+      "category": "backend",
+      "path": "backend/File_Storage_S3_MinIO.md",
+      "tags": [
+        "file",
+        "storage",
+        "s3",
+        "minio",
+        "backend"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "File_Upload_Handling",
+      "name": "File Upload Handling",
+      "title": "File Upload Handling (Multer/S3)",
+      "category": "backend",
+      "path": "backend/File_Upload_Handling.md",
+      "tags": [
+        "file",
+        "upload",
+        "handling",
+        "backend"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "GraphQL_Schema_Design",
+      "name": "GraphQL Schema Design",
+      "title": "GraphQL Schema Design",
+      "category": "backend",
+      "path": "backend/GraphQL_Schema_Design.md",
+      "tags": [
+        "graphql",
+        "schema",
+        "design",
+        "backend",
+        "api"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "gRPC_Service_Implementation",
+      "name": "gRPC Service Implementation",
+      "title": "gRPC Service Implementation",
+      "category": "backend",
+      "path": "backend/gRPC_Service_Implementation.md",
+      "tags": [
+        "grpc",
+        "service",
+        "implementation",
+        "backend"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Health_Check_Endpoint",
+      "name": "Health Check Endpoint",
+      "title": "Health Check Endpoint Implementation",
+      "category": "backend",
+      "path": "backend/Health_Check_Endpoint.md",
+      "tags": [
+        "health",
+        "check",
+        "endpoint",
+        "backend"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Logger_Configuration_Winston",
+      "name": "Logger Configuration Winston",
+      "title": "Logger Configuration (Winston)",
+      "category": "backend",
+      "path": "backend/Logger_Configuration_Winston.md",
+      "tags": [
+        "logger",
+        "configuration",
+        "winston",
+        "backend"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Message_Queue_Implementation",
+      "name": "Message Queue Implementation",
+      "title": "Message Queue Implementation (RabbitMQ/SQS)",
+      "category": "backend",
+      "path": "backend/Message_Queue_Implementation.md",
+      "tags": [
+        "message",
+        "queue",
+        "implementation",
+        "backend"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "MFA_Implementation",
+      "name": "MFA Implementation",
+      "title": "MFA Implementation (2FA)",
+      "category": "backend",
+      "path": "backend/MFA_Implementation.md",
+      "tags": [
+        "mfa",
+        "implementation",
+        "backend"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Microservice_Communication",
+      "name": "Microservice Communication",
+      "title": "Microservice Communication (gRPC/HTTP)",
+      "category": "backend",
+      "path": "backend/Microservice_Communication.md",
+      "tags": [
+        "microservice",
+        "communication",
+        "backend"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "MongoDB_Aggregation",
+      "name": "MongoDB Aggregation",
+      "title": "MongoDB Aggregation Framework",
+      "category": "backend",
+      "path": "backend/MongoDB_Aggregation.md",
+      "tags": [
+        "mongodb",
+        "aggregation",
+        "backend"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Nodejs_Streams",
+      "name": "Nodejs Streams",
+      "title": "Node.js Streams",
+      "category": "backend",
+      "path": "backend/Nodejs_Streams.md",
+      "tags": [
+        "nodejs",
+        "streams",
+        "backend"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "OAuth2_Provider_Implementation",
+      "name": "OAuth2 Provider Implementation",
+      "title": "OAuth2 Provider Implementation",
+      "category": "backend",
+      "path": "backend/OAuth2_Provider_Implementation.md",
+      "tags": [
+        "oauth2",
+        "provider",
+        "implementation",
+        "backend"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Pagination_Implementation",
+      "name": "Pagination Implementation",
+      "title": "Pagination Implementation",
+      "category": "backend",
+      "path": "backend/Pagination_Implementation.md",
+      "tags": [
+        "pagination",
+        "implementation",
+        "backend"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "PostgreSQL_Indexing",
+      "name": "PostgreSQL Indexing",
+      "title": "PostgreSQL Indexing",
+      "category": "backend",
+      "path": "backend/PostgreSQL_Indexing.md",
+      "tags": [
+        "postgresql",
+        "indexing",
+        "backend"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Prisma_Schema_Design",
+      "name": "Prisma Schema Design",
+      "title": "Prisma Schema Design",
+      "category": "backend",
+      "path": "backend/Prisma_Schema_Design.md",
+      "tags": [
+        "prisma",
+        "schema",
+        "design",
+        "backend"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Redis_Data_Structures",
+      "name": "Redis Data Structures",
+      "title": "Redis Data Structures",
+      "category": "backend",
+      "path": "backend/Redis_Data_Structures.md",
+      "tags": [
+        "redis",
+        "data",
+        "structures",
+        "backend"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Refactoring_Legacy_Controller",
+      "name": "Refactoring Legacy Controller",
+      "title": "Refactoring Legacy Controller",
+      "category": "backend",
+      "path": "backend/Refactoring_Legacy_Controller.md",
+      "tags": [
+        "refactoring",
+        "legacy",
+        "controller",
+        "backend"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Session_Management_Best_Practices",
+      "name": "Session Management Best Practices",
+      "title": "Session Management Best Practices",
+      "category": "backend",
+      "path": "backend/Session_Management_Best_Practices.md",
+      "tags": [
+        "session",
+        "management",
+        "best",
+        "practices",
+        "backend",
+        "best-practices"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Soft_Delete_Implementation",
+      "name": "Soft Delete Implementation",
+      "title": "Soft Delete Implementation",
+      "category": "backend",
+      "path": "backend/Soft_Delete_Implementation.md",
+      "tags": [
+        "soft",
+        "delete",
+        "implementation",
+        "backend"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "SQL_Query_Optimization",
+      "name": "SQL Query Optimization",
+      "title": "SQL Query Optimization",
+      "category": "backend",
+      "path": "backend/SQL_Query_Optimization.md",
+      "tags": [
+        "sql",
+        "query",
+        "optimization",
+        "backend"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Swagger_Documentation",
+      "name": "Swagger Documentation",
+      "title": "Swagger Documentation Generation",
+      "category": "backend",
+      "path": "backend/Swagger_Documentation.md",
+      "tags": [
+        "swagger",
+        "documentation",
+        "backend"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Transaction_Management",
+      "name": "Transaction Management",
+      "title": "Transaction Management",
+      "category": "backend",
+      "path": "backend/Transaction_Management.md",
+      "tags": [
+        "transaction",
+        "management",
+        "backend"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "TypeORM_Relations",
+      "name": "TypeORM Relations",
+      "title": "TypeORM Relations",
+      "category": "backend",
+      "path": "backend/TypeORM_Relations.md",
+      "tags": [
+        "typeorm",
+        "relations",
+        "backend"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Webhooks_Implementation",
+      "name": "Webhooks Implementation",
+      "title": "Webhooks Implementation",
+      "category": "backend",
+      "path": "backend/Webhooks_Implementation.md",
+      "tags": [
+        "webhooks",
+        "implementation",
+        "backend"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "WebSocket_Implementation",
+      "name": "WebSocket Implementation",
+      "title": "WebSocket Implementation (Socket.io)",
+      "category": "backend",
+      "path": "backend/WebSocket_Implementation.md",
+      "tags": [
+        "websocket",
+        "implementation",
+        "backend"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Branch_Protection_Rules",
+      "name": "Branch Protection Rules",
+      "title": "Branch Protection Rules",
+      "category": "code_management",
+      "path": "code_management/Branch_Protection_Rules.md",
+      "tags": [
+        "branch",
+        "protection",
+        "rules",
+        "code_management"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Code_Review_Guidelines",
+      "name": "Code Review Guidelines",
+      "title": "Code Review Guidelines",
+      "category": "code_management",
+      "path": "code_management/Code_Review_Guidelines.md",
+      "tags": [
+        "code",
+        "review",
+        "guidelines",
+        "code_management",
+        "guide"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Dead_Code_Elimination",
+      "name": "Dead Code Elimination",
+      "title": "Dead Code Elimination",
+      "category": "code_management",
+      "path": "code_management/Dead_Code_Elimination.md",
+      "tags": [
+        "dead",
+        "code",
+        "elimination",
+        "code_management"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "ESLint_Prettier_Setup",
+      "name": "ESLint Prettier Setup",
+      "title": "ESLint & Prettier Setup",
+      "category": "code_management",
+      "path": "code_management/ESLint_Prettier_Setup.md",
+      "tags": [
+        "eslint",
+        "prettier",
+        "setup",
+        "code_management"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Git_Commit_Convention_Conventional_Commits",
+      "name": "Git Commit Convention Conventional Commits",
+      "title": "Git Commit Convention (Conventional Commits)",
+      "category": "code_management",
+      "path": "code_management/Git_Commit_Convention_Conventional_Commits.md",
+      "tags": [
+        "git",
+        "commit",
+        "convention",
+        "conventional",
+        "commits",
+        "code_management"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Git_Hooks_Husky",
+      "name": "Git Hooks Husky",
+      "title": "Git Hooks with Husky",
+      "category": "code_management",
+      "path": "code_management/Git_Hooks_Husky.md",
+      "tags": [
+        "git",
+        "hooks",
+        "husky",
+        "code_management"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Managing_Technical_Debt",
+      "name": "Managing Technical Debt",
+      "title": "Managing Technical Debt",
+      "category": "code_management",
+      "path": "code_management/Managing_Technical_Debt.md",
+      "tags": [
+        "managing",
+        "technical",
+        "debt",
+        "code_management"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Monorepo_Setup_Turborepo",
+      "name": "Monorepo Setup Turborepo",
+      "title": "Monorepo Setup (Turborepo)",
+      "category": "code_management",
+      "path": "code_management/Monorepo_Setup_Turborepo.md",
+      "tags": [
+        "monorepo",
+        "setup",
+        "turborepo",
+        "code_management"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Npm_Scripts_Automation",
+      "name": "Npm Scripts Automation",
+      "title": "NPM Scripts Automation",
+      "category": "code_management",
+      "path": "code_management/Npm_Scripts_Automation.md",
+      "tags": [
+        "npm",
+        "scripts",
+        "automation",
+        "code_management"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Semantic_Versioning_Strategy",
+      "name": "Semantic Versioning Strategy",
+      "title": "Semantic Versioning Strategy",
+      "category": "code_management",
+      "path": "code_management/Semantic_Versioning_Strategy.md",
+      "tags": [
+        "semantic",
+        "versioning",
+        "strategy",
+        "code_management"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Ansible_Playbook_Creation",
+      "name": "Ansible Playbook Creation",
+      "title": "Ansible Playbook Creation",
+      "category": "devops",
+      "path": "devops/Ansible_Playbook_Creation.md",
+      "tags": [
+        "ansible",
+        "playbook",
+        "creation",
+        "devops"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Automated_Database_Backups",
+      "name": "Automated Database Backups",
+      "title": "Automated Database Backups",
+      "category": "devops",
+      "path": "devops/Automated_Database_Backups.md",
+      "tags": [
+        "automated",
+        "database",
+        "backups",
+        "devops"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "AWS_Lambda_Function_Design",
+      "name": "AWS Lambda Function Design",
+      "title": "AWS Lambda Function Design",
+      "category": "devops",
+      "path": "devops/AWS_Lambda_Function_Design.md",
+      "tags": [
+        "aws",
+        "lambda",
+        "function",
+        "design",
+        "devops"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "AWS_Secrets_Manager_Integration",
+      "name": "AWS Secrets Manager Integration",
+      "title": "AWS Secrets Manager Integration",
+      "category": "devops",
+      "path": "devops/AWS_Secrets_Manager_Integration.md",
+      "tags": [
+        "aws",
+        "secrets",
+        "manager",
+        "integration",
+        "devops"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Azure_Functions_Basics",
+      "name": "Azure Functions Basics",
+      "title": "Azure Functions Basics",
+      "category": "devops",
+      "path": "devops/Azure_Functions_Basics.md",
+      "tags": [
+        "azure",
+        "functions",
+        "basics",
+        "devops",
+        "guide"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Blue_Green_Deployment_Strategy",
+      "name": "Blue Green Deployment Strategy",
+      "title": "Blue-Green Deployment Strategy",
+      "category": "devops",
+      "path": "devops/Blue_Green_Deployment_Strategy.md",
+      "tags": [
+        "blue",
+        "green",
+        "deployment",
+        "strategy",
+        "devops"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Chaos_Engineering_Basics",
+      "name": "Chaos Engineering Basics",
+      "title": "Chaos Engineering Basics",
+      "category": "devops",
+      "path": "devops/Chaos_Engineering_Basics.md",
+      "tags": [
+        "chaos",
+        "engineering",
+        "basics",
+        "devops",
+        "guide"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "CI_Pipeline_GitHub_Actions",
+      "name": "CI Pipeline GitHub Actions",
+      "title": "CI Pipeline Setup (GitHub Actions)",
+      "category": "devops",
+      "path": "devops/CI_Pipeline_GitHub_Actions.md",
+      "tags": [
+        "ci",
+        "pipeline",
+        "github",
+        "actions",
+        "devops"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Cost_Optimization_Cloud",
+      "name": "Cost Optimization Cloud",
+      "title": "Cost Optimization (AWS/Cloud)",
+      "category": "devops",
+      "path": "devops/Cost_Optimization_Cloud.md",
+      "tags": [
+        "cost",
+        "optimization",
+        "cloud",
+        "devops"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Dependency_Update_Audit",
+      "name": "Dependency Update Audit",
+      "title": "Dependency Update Audit",
+      "category": "devops",
+      "path": "devops/Dependency_Update_Audit.md",
+      "tags": [
+        "dependency",
+        "update",
+        "audit",
+        "devops"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Docker_Containerization_Node",
+      "name": "Docker Containerization Node",
+      "title": "Docker Containerization (Node.js)",
+      "category": "devops",
+      "path": "devops/Docker_Containerization_Node.md",
+      "tags": [
+        "docker",
+        "containerization",
+        "node",
+        "devops"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Git_Branching_Strategy",
+      "name": "Git Branching Strategy",
+      "title": "Git Branching Strategy (GitFlow/Trunk)",
+      "category": "devops",
+      "path": "devops/Git_Branching_Strategy.md",
+      "tags": [
+        "git",
+        "branching",
+        "strategy",
+        "devops"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Google_Cloud_Run_Deployment",
+      "name": "Google Cloud Run Deployment",
+      "title": "Google Cloud Run Deployment",
+      "category": "devops",
+      "path": "devops/Google_Cloud_Run_Deployment.md",
+      "tags": [
+        "google",
+        "cloud",
+        "run",
+        "deployment",
+        "devops"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Infrastructure_as_Code_Terraform",
+      "name": "Infrastructure as Code Terraform",
+      "title": "Infrastructure as Code (Terraform)",
+      "category": "devops",
+      "path": "devops/Infrastructure_as_Code_Terraform.md",
+      "tags": [
+        "infrastructure",
+        "as",
+        "code",
+        "terraform",
+        "devops"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Kubernetes_Deployment_Manifests",
+      "name": "Kubernetes Deployment Manifests",
+      "title": "Kubernetes Deployment Manifests",
+      "category": "devops",
+      "path": "devops/Kubernetes_Deployment_Manifests.md",
+      "tags": [
+        "kubernetes",
+        "deployment",
+        "manifests",
+        "devops"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Log_Aggregation_ELK",
+      "name": "Log Aggregation ELK",
+      "title": "Log Aggregation (ELK/Loki)",
+      "category": "devops",
+      "path": "devops/Log_Aggregation_ELK.md",
+      "tags": [
+        "log",
+        "aggregation",
+        "elk",
+        "devops"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Monitoring_with_Datadog",
+      "name": "Monitoring with Datadog",
+      "title": "Monitoring with Datadog",
+      "category": "devops",
+      "path": "devops/Monitoring_with_Datadog.md",
+      "tags": [
+        "monitoring",
+        "with",
+        "datadog",
+        "devops"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Nginx_Reverse_Proxy_Setup",
+      "name": "Nginx Reverse Proxy Setup",
+      "title": "Nginx Reverse Proxy Setup",
+      "category": "devops",
+      "path": "devops/Nginx_Reverse_Proxy_Setup.md",
+      "tags": [
+        "nginx",
+        "reverse",
+        "proxy",
+        "setup",
+        "devops"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Prometheus_Grafana_Monitoring",
+      "name": "Prometheus Grafana Monitoring",
+      "title": "Monitoring & Alerting (Prometheus/Grafana)",
+      "category": "devops",
+      "path": "devops/Prometheus_Grafana_Monitoring.md",
+      "tags": [
+        "prometheus",
+        "grafana",
+        "monitoring",
+        "devops"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Sentry_Error_Tracking",
+      "name": "Sentry Error Tracking",
+      "title": "Sentry Error Tracking Setup",
+      "category": "devops",
+      "path": "devops/Sentry_Error_Tracking.md",
+      "tags": [
+        "sentry",
+        "error",
+        "tracking",
+        "devops"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Serverless_Framework_Setup",
+      "name": "Serverless Framework Setup",
+      "title": "Serverless Framework Setup",
+      "category": "devops",
+      "path": "devops/Serverless_Framework_Setup.md",
+      "tags": [
+        "serverless",
+        "framework",
+        "setup",
+        "devops"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "SSL_TLS_Certbot_Setup",
+      "name": "SSL TLS Certbot Setup",
+      "title": "SSL/TLS Certificate Management (Certbot)",
+      "category": "devops",
+      "path": "devops/SSL_TLS_Certbot_Setup.md",
+      "tags": [
+        "ssl",
+        "tls",
+        "certbot",
+        "setup",
+        "devops"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Terraform_Advanced",
+      "name": "Terraform Advanced",
+      "title": "Terraform Best Practices (Advanced)",
+      "category": "devops",
+      "path": "devops/Terraform_Advanced.md",
+      "tags": [
+        "terraform",
+        "advanced",
+        "devops"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "API_Design_Guidelines_REST",
+      "name": "API Design Guidelines (REST)",
+      "title": "API Design Guidelines (REST/JSON)",
+      "category": "documentation",
+      "path": "documentation/API_Design_Guidelines_REST.md",
+      "tags": [
+        "documentation",
+        "api",
+        "design",
+        "guidelines",
+        "rest"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "API_Documentation_Best_Practices",
+      "name": "API Documentation Best Practices",
+      "title": "API Documentation Best Practices",
+      "category": "documentation",
+      "path": "documentation/API_Documentation_Best_Practices.md",
+      "tags": [
+        "api",
+        "documentation",
+        "best",
+        "practices",
+        "best-practices"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Architectural_Decision_Records_ADR",
+      "name": "Architectural Decision Records ADR",
+      "title": "Architectural Decision Records (ADR)",
+      "category": "documentation",
+      "path": "documentation/Architectural_Decision_Records_ADR.md",
+      "tags": [
+        "architectural",
+        "decision",
+        "records",
+        "adr",
+        "documentation"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Changelog_Maintenance",
+      "name": "Changelog Maintenance",
+      "title": "Release Notes & Changelog Maintenance",
+      "category": "documentation",
+      "path": "documentation/Changelog_Maintenance.md",
+      "tags": [
+        "changelog",
+        "maintenance",
+        "documentation"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Code_Comments_Best_Practices",
+      "name": "Code Comments Best Practices",
+      "title": "Code Commenting Best Practices",
+      "category": "documentation",
+      "path": "documentation/Code_Comments_Best_Practices.md",
+      "tags": [
+        "code",
+        "comments",
+        "best",
+        "practices",
+        "documentation",
+        "best-practices"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Component_Documentation_Storybook",
+      "name": "Component Documentation (Storybook)",
+      "title": "Component Documentation (Storybook)",
+      "category": "documentation",
+      "path": "documentation/Component_Documentation_Storybook.md",
+      "tags": [
+        "documentation",
+        "component",
+        "storybook"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Contributing_Guidelines_CONTRIBUTING",
+      "name": "Contributing Guidelines CONTRIBUTING",
+      "title": "Contributing Guidelines (CONTRIBUTING.md)",
+      "category": "documentation",
+      "path": "documentation/Contributing_Guidelines_CONTRIBUTING.md",
+      "tags": [
+        "contributing",
+        "guidelines",
+        "documentation",
+        "guide"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Diagramming_Mermaid_JS",
+      "name": "Diagramming with Mermaid.js",
+      "title": "Diagramming with Mermaid.js",
+      "category": "documentation",
+      "path": "documentation/Diagramming_Mermaid_JS.md",
+      "tags": [
+        "documentation",
+        "diagramming",
+        "mermaid",
+        "js"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Effective_User_Documentation",
+      "name": "Effective User Documentation",
+      "title": "Writing Effective User Documentation",
+      "category": "documentation",
+      "path": "documentation/Effective_User_Documentation.md",
+      "tags": [
+        "documentation",
+        "effective",
+        "user"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Project_Onboarding_Guide",
+      "name": "Project Onboarding Guide",
+      "title": "Project Onboarding Guide",
+      "category": "documentation",
+      "path": "documentation/Project_Onboarding_Guide.md",
+      "tags": [
+        "project",
+        "onboarding",
+        "guide",
+        "documentation"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Technical_Spec_Writing",
+      "name": "Technical Spec Writing (RFC)",
+      "title": "Technical Specification Writing (RFC/Design Doc)",
+      "category": "documentation",
+      "path": "documentation/Technical_Spec_Writing.md",
+      "tags": [
+        "documentation",
+        "technical",
+        "spec",
+        "writing"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "User_Manual_Creation",
+      "name": "User Manual Creation",
+      "title": "User Manual Creation",
+      "category": "documentation",
+      "path": "documentation/User_Manual_Creation.md",
+      "tags": [
+        "user",
+        "manual",
+        "creation",
+        "documentation"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "User_Story_Mapping",
+      "name": "User Story Mapping",
+      "title": "User Story Mapping (Agile)",
+      "category": "documentation",
+      "path": "documentation/User_Story_Mapping.md",
+      "tags": [
+        "documentation",
+        "user",
+        "story",
+        "mapping"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Writing_Effective_README",
+      "name": "Writing Effective README",
+      "title": "README Best Practices",
+      "category": "documentation",
+      "path": "documentation/Writing_Effective_README.md",
+      "tags": [
+        "writing",
+        "effective",
+        "readme",
+        "documentation"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Accessibility_Audit",
+      "name": "Accessibility Audit",
+      "title": "Accessibility (a11y) Audit",
+      "category": "frontend",
+      "path": "frontend/Accessibility_Audit.md",
+      "tags": [
+        "accessibility",
+        "audit",
+        "frontend"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "API_Data_Fetching_TanStack",
+      "name": "API Data Fetching TanStack",
+      "title": "API Data Fetching (TanStack Query)",
+      "category": "frontend",
+      "path": "frontend/API_Data_Fetching_TanStack.md",
+      "tags": [
+        "api",
+        "data",
+        "fetching",
+        "tanstack",
+        "frontend"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Browser_Storage",
+      "name": "Browser Storage",
+      "title": "Browser Storage",
+      "category": "frontend",
+      "path": "frontend/Browser_Storage.md",
+      "tags": [
+        "browser",
+        "storage",
+        "frontend"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Canvas_Threejs_Basics",
+      "name": "Canvas Threejs Basics",
+      "title": "Canvas & Three.js Basics",
+      "category": "frontend",
+      "path": "frontend/Canvas_Threejs_Basics.md",
+      "tags": [
+        "canvas",
+        "threejs",
+        "basics",
+        "frontend",
+        "guide"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "CSS_Grid_vs_Flexbox",
+      "name": "CSS Grid vs Flexbox",
+      "title": "CSS Grid vs Flexbox",
+      "category": "frontend",
+      "path": "frontend/CSS_Grid_vs_Flexbox.md",
+      "tags": [
+        "css",
+        "grid",
+        "vs",
+        "flexbox",
+        "frontend"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Custom_React_Hook_Creation",
+      "name": "Custom React Hook Creation",
+      "title": "Custom React Hook Creation",
+      "category": "frontend",
+      "path": "frontend/Custom_React_Hook_Creation.md",
+      "tags": [
+        "custom",
+        "react",
+        "hook",
+        "creation",
+        "frontend"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Dark_Mode_Implementation",
+      "name": "Dark Mode Implementation",
+      "title": "Dark Mode Implementation",
+      "category": "frontend",
+      "path": "frontend/Dark_Mode_Implementation.md",
+      "tags": [
+        "dark",
+        "mode",
+        "implementation",
+        "frontend"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Form_Handling_ReactHookForm",
+      "name": "Form Handling ReactHookForm",
+      "title": "Form Handling (React Hook Form)",
+      "category": "frontend",
+      "path": "frontend/Form_Handling_ReactHookForm.md",
+      "tags": [
+        "form",
+        "handling",
+        "reacthookform",
+        "frontend"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Frontend_Error_Boundary",
+      "name": "Frontend Error Boundary",
+      "title": "Frontend Error Boundary",
+      "category": "frontend",
+      "path": "frontend/Frontend_Error_Boundary.md",
+      "tags": [
+        "frontend",
+        "error",
+        "boundary"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Global_State_Management_Redux",
+      "name": "Global State Management Redux",
+      "title": "Global State Management (Redux Toolkit)",
+      "category": "frontend",
+      "path": "frontend/Global_State_Management_Redux.md",
+      "tags": [
+        "global",
+        "state",
+        "management",
+        "redux",
+        "frontend"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Handling_Large_Lists_Virtualization",
+      "name": "Handling Large Lists Virtualization",
+      "title": "Handling Large Lists (Virtualization)",
+      "category": "frontend",
+      "path": "frontend/Handling_Large_Lists_Virtualization.md",
+      "tags": [
+        "handling",
+        "large",
+        "lists",
+        "virtualization",
+        "frontend"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Internationalization_i18n",
+      "name": "Internationalization i18n",
+      "title": "Internationalization (i18n)",
+      "category": "frontend",
+      "path": "frontend/Internationalization_i18n.md",
+      "tags": [
+        "internationalization",
+        "i18n",
+        "frontend"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Mobile_First_Design",
+      "name": "Mobile First Design",
+      "title": "Mobile-First Design",
+      "category": "frontend",
+      "path": "frontend/Mobile_First_Design.md",
+      "tags": [
+        "mobile",
+        "first",
+        "design",
+        "frontend"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Nextjs_App_Router",
+      "name": "Nextjs App Router",
+      "title": "Next.js App Router",
+      "category": "frontend",
+      "path": "frontend/Nextjs_App_Router.md",
+      "tags": [
+        "nextjs",
+        "app",
+        "router",
+        "frontend"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "PWA_Implementation",
+      "name": "PWA Implementation",
+      "title": "PWA Implementation",
+      "category": "frontend",
+      "path": "frontend/PWA_Implementation.md",
+      "tags": [
+        "pwa",
+        "implementation",
+        "frontend"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "React_Component_Optimization",
+      "name": "React Component Optimization",
+      "title": "React Component Optimization",
+      "category": "frontend",
+      "path": "frontend/React_Component_Optimization.md",
+      "tags": [
+        "react",
+        "component",
+        "optimization",
+        "frontend"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "React_Context_vs_Zustand",
+      "name": "React Context vs Zustand",
+      "title": "React Context vs Zustand",
+      "category": "frontend",
+      "path": "frontend/React_Context_vs_Zustand.md",
+      "tags": [
+        "react",
+        "context",
+        "vs",
+        "zustand",
+        "frontend"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "React_Testing_Library",
+      "name": "React Testing Library",
+      "title": "React Testing Library (RTL)",
+      "category": "frontend",
+      "path": "frontend/React_Testing_Library.md",
+      "tags": [
+        "react",
+        "testing",
+        "library",
+        "frontend"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Responsive_UI_Design_Tailwind",
+      "name": "Responsive UI Design Tailwind",
+      "title": "Responsive UI Design (Tailwind CSS)",
+      "category": "frontend",
+      "path": "frontend/Responsive_UI_Design_Tailwind.md",
+      "tags": [
+        "responsive",
+        "ui",
+        "design",
+        "tailwind",
+        "frontend"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Route_Protection_React_Router",
+      "name": "Route Protection React Router",
+      "title": "Route Protection (React Router)",
+      "category": "frontend",
+      "path": "frontend/Route_Protection_React_Router.md",
+      "tags": [
+        "route",
+        "protection",
+        "react",
+        "router",
+        "frontend"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Storybook_Component_Documentation",
+      "name": "Storybook Component Documentation",
+      "title": "Storybook Component Documentation",
+      "category": "frontend",
+      "path": "frontend/Storybook_Component_Documentation.md",
+      "tags": [
+        "storybook",
+        "component",
+        "documentation",
+        "frontend"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "SVG_Animation_Techniques",
+      "name": "SVG Animation Techniques",
+      "title": "SVG Animation Techniques",
+      "category": "frontend",
+      "path": "frontend/SVG_Animation_Techniques.md",
+      "tags": [
+        "svg",
+        "animation",
+        "techniques",
+        "frontend"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Web_Vitals_Optimization",
+      "name": "Web Vitals Optimization",
+      "title": "Web Vitals Optimization",
+      "category": "frontend",
+      "path": "frontend/Web_Vitals_Optimization.md",
+      "tags": [
+        "web",
+        "vitals",
+        "optimization",
+        "frontend"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Web_Workers",
+      "name": "Web Workers",
+      "title": "Web Workers",
+      "category": "frontend",
+      "path": "frontend/Web_Workers.md",
+      "tags": [
+        "web",
+        "workers",
+        "frontend"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "App_Store_Deployment_Guide",
+      "name": "App Store Deployment Guide",
+      "title": "App Store Deployment Guide",
+      "category": "mobile",
+      "path": "mobile/App_Store_Deployment_Guide.md",
+      "tags": [
+        "app",
+        "store",
+        "deployment",
+        "guide",
+        "mobile"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Biometric_Authentication_Expo",
+      "name": "Biometric Authentication (Expo)",
+      "title": "Biometric Authentication (React Native / Expo)",
+      "category": "mobile",
+      "path": "mobile/Biometric_Authentication_Expo.md",
+      "tags": [
+        "mobile",
+        "biometric",
+        "authentication",
+        "expo"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Deep_Linking_React_Navigation",
+      "name": "Deep Linking (React Navigation)",
+      "title": "Deep Linking in React Navigation",
+      "category": "mobile",
+      "path": "mobile/Deep_Linking_React_Navigation.md",
+      "tags": [
+        "mobile",
+        "deep",
+        "linking",
+        "react",
+        "navigation"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Mobile_Device_Features",
+      "name": "Mobile Device Features",
+      "title": "Mobile Device Features",
+      "category": "mobile",
+      "path": "mobile/Mobile_Device_Features.md",
+      "tags": [
+        "mobile",
+        "device",
+        "features"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Mobile_UI_Styling_NativeWind",
+      "name": "Mobile UI Styling NativeWind",
+      "title": "Mobile UI Styling (NativeWind)",
+      "category": "mobile",
+      "path": "mobile/Mobile_UI_Styling_NativeWind.md",
+      "tags": [
+        "mobile",
+        "ui",
+        "styling",
+        "nativewind"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Offline_First_Mobile_Architecture",
+      "name": "Offline First Mobile Architecture",
+      "title": "Offline-First Mobile Architecture",
+      "category": "mobile",
+      "path": "mobile/Offline_First_Mobile_Architecture.md",
+      "tags": [
+        "offline",
+        "first",
+        "mobile",
+        "architecture"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Push_Notifications_Setup",
+      "name": "Push Notifications Setup",
+      "title": "Push Notifications Setup",
+      "category": "mobile",
+      "path": "mobile/Push_Notifications_Setup.md",
+      "tags": [
+        "push",
+        "notifications",
+        "setup",
+        "mobile"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "React_Native_Navigation",
+      "name": "React Native Navigation",
+      "title": "React Native Navigation",
+      "category": "mobile",
+      "path": "mobile/React_Native_Navigation.md",
+      "tags": [
+        "react",
+        "native",
+        "navigation",
+        "mobile"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "React_Native_Reanimated",
+      "name": "React Native Reanimated",
+      "title": "React Native Reanimated",
+      "category": "mobile",
+      "path": "mobile/React_Native_Reanimated.md",
+      "tags": [
+        "react",
+        "native",
+        "reanimated",
+        "mobile"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "React_Native_Setup_Expo",
+      "name": "React Native Setup Expo",
+      "title": "React Native Setup (Expo)",
+      "category": "mobile",
+      "path": "mobile/React_Native_Setup_Expo.md",
+      "tags": [
+        "react",
+        "native",
+        "setup",
+        "expo",
+        "mobile"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Code_Review_Security",
+      "name": "Code Review Security",
+      "title": "Code Review Security Checklist",
+      "category": "security",
+      "path": "security/Code_Review_Security.md",
+      "tags": [
+        "code",
+        "review",
+        "security"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Content_Security_Policy_CSP",
+      "name": "Content Security Policy CSP",
+      "title": "Content Security Policy (CSP)",
+      "category": "security",
+      "path": "security/Content_Security_Policy_CSP.md",
+      "tags": [
+        "content",
+        "security",
+        "policy",
+        "csp"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "CORS_Configuration_Best_Practices",
+      "name": "CORS Configuration Best Practices",
+      "title": "CORS Configuration Best Practices",
+      "category": "security",
+      "path": "security/CORS_Configuration_Best_Practices.md",
+      "tags": [
+        "security",
+        "cors",
+        "configuration",
+        "best",
+        "practices"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "CSRF_Protection_Strategies",
+      "name": "CSRF Protection Strategies",
+      "title": "CSRF Protection Strategies",
+      "category": "security",
+      "path": "security/CSRF_Protection_Strategies.md",
+      "tags": [
+        "csrf",
+        "protection",
+        "strategies",
+        "security"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Dependency_Vulnerability_Scanning",
+      "name": "Dependency Vulnerability Scanning",
+      "title": "Dependency Vulnerability Scanning",
+      "category": "security",
+      "path": "security/Dependency_Vulnerability_Scanning.md",
+      "tags": [
+        "dependency",
+        "vulnerability",
+        "scanning",
+        "security"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Input_Validation_Zod",
+      "name": "Input Validation Zod",
+      "title": "Input Validation (Zod)",
+      "category": "security",
+      "path": "security/Input_Validation_Zod.md",
+      "tags": [
+        "input",
+        "validation",
+        "zod",
+        "security"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "JWT_Authentication",
+      "name": "JWT Authentication",
+      "title": "JWT Authentication & Security",
+      "category": "security",
+      "path": "security/JWT_Authentication.md",
+      "tags": [
+        "jwt",
+        "authentication",
+        "security"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "OAuth2_OIDC_Implementation",
+      "name": "OAuth2 & OIDC Implementation",
+      "title": "OAuth2 & OpenID Connect (Auth0)",
+      "category": "security",
+      "path": "security/OAuth2_OIDC_Implementation.md",
+      "tags": [
+        "security",
+        "oauth2",
+        "oidc",
+        "implementation"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "OWASP_Top_10_Mitigation",
+      "name": "OWASP Top 10 Mitigation",
+      "title": "OWASP Top 10 Mitigation",
+      "category": "security",
+      "path": "security/OWASP_Top_10_Mitigation.md",
+      "tags": [
+        "owasp",
+        "top",
+        "10",
+        "mitigation",
+        "security"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Password_Hashing_Best_Practices",
+      "name": "Password Hashing Best Practices",
+      "title": "Password Hashing (Argon2 / BCrypt)",
+      "category": "security",
+      "path": "security/Password_Hashing_Best_Practices.md",
+      "tags": [
+        "security",
+        "password",
+        "hashing",
+        "best",
+        "practices"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Rate_Limiting_Redis",
+      "name": "Rate Limiting Redis",
+      "title": "Rate Limiting & Brute-Force Protection (Redis)",
+      "category": "security",
+      "path": "security/Rate_Limiting_Redis.md",
+      "tags": [
+        "rate",
+        "limiting",
+        "redis",
+        "security"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "RBAC_Implementation",
+      "name": "RBAC Implementation",
+      "title": "Role-Based Access Control (RBAC)",
+      "category": "security",
+      "path": "security/RBAC_Implementation.md",
+      "tags": [
+        "rbac",
+        "implementation",
+        "security"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Secret_Scanning_CI_CD",
+      "name": "Secret Scanning CI CD",
+      "title": "Secret Scanning & Management",
+      "category": "security",
+      "path": "security/Secret_Scanning_CI_CD.md",
+      "tags": [
+        "secret",
+        "scanning",
+        "ci",
+        "cd",
+        "security"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Secure_Env_Var_Handling",
+      "name": "Secure Env Var Handling",
+      "title": "Secure Env Var Handling",
+      "category": "security",
+      "path": "security/Secure_Env_Var_Handling.md",
+      "tags": [
+        "secure",
+        "env",
+        "var",
+        "handling",
+        "security"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "SQL_Injection_Prevention",
+      "name": "SQL Injection Prevention",
+      "title": "SQL Injection Prevention",
+      "category": "security",
+      "path": "security/SQL_Injection_Prevention.md",
+      "tags": [
+        "security",
+        "sql",
+        "injection",
+        "prevention"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "XSS_Prevention_Guide",
+      "name": "XSS Prevention Guide",
+      "title": "XSS Prevention & Sanitization",
+      "category": "security",
+      "path": "security/XSS_Prevention_Guide.md",
+      "tags": [
+        "xss",
+        "prevention",
+        "guide",
+        "security"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "API_Integration_Testing_Supertest",
+      "name": "API Integration Testing (Supertest)",
+      "title": "API Integration Testing (Supertest + Jest)",
+      "category": "testing",
+      "path": "testing/API_Integration_Testing_Supertest.md",
+      "tags": [
+        "testing",
+        "api",
+        "integration",
+        "supertest"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Automated_Accessibility_Testing_Axe",
+      "name": "Automated Accessibility Testing (Axe-core)",
+      "title": "Automated Accessibility Testing (Axe-core)",
+      "category": "testing",
+      "path": "testing/Automated_Accessibility_Testing_Axe.md",
+      "tags": [
+        "testing",
+        "automated",
+        "accessibility",
+        "axe"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Component_Testing_React_Testing_Library",
+      "name": "Component Testing (RTL)",
+      "title": "Component Testing (React Testing Library)",
+      "category": "testing",
+      "path": "testing/Component_Testing_React_Testing_Library.md",
+      "tags": [
+        "testing",
+        "component",
+        "react",
+        "library"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Consumer_Driven_Contract_Testing_Pact",
+      "name": "Contract Testing (Pact)",
+      "title": "Consumer-Driven Contract Testing (Pact)",
+      "category": "testing",
+      "path": "testing/Consumer_Driven_Contract_Testing_Pact.md",
+      "tags": [
+        "testing",
+        "consumer",
+        "driven",
+        "contract",
+        "pact"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "E2E_Testing_Playwright",
+      "name": "E2E Testing Playwright",
+      "title": "E2E Testing (Cypress/Playwright)",
+      "category": "testing",
+      "path": "testing/E2E_Testing_Playwright.md",
+      "tags": [
+        "e2e",
+        "testing",
+        "playwright"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Load_Testing_k6",
+      "name": "Load & Performance Testing (k6)",
+      "title": "Load & Performance Testing (k6)",
+      "category": "testing",
+      "path": "testing/Load_Testing_k6.md",
+      "tags": [
+        "testing",
+        "load",
+        "k6"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Mocking_External_Services_Jest",
+      "name": "Mocking External Services (Jest)",
+      "title": "Mocking External Services (Jest)",
+      "category": "testing",
+      "path": "testing/Mocking_External_Services_Jest.md",
+      "tags": [
+        "testing",
+        "mocking",
+        "external",
+        "services",
+        "jest"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Mutation_Testing_Stryker",
+      "name": "Mutation Testing (Stryker)",
+      "title": "Mutation Testing (Stryker)",
+      "category": "testing",
+      "path": "testing/Mutation_Testing_Stryker.md",
+      "tags": [
+        "testing",
+        "mutation",
+        "stryker"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Snapshot_Testing_Jest",
+      "name": "Snapshot Testing (Jest)",
+      "title": "Snapshot Testing (Jest)",
+      "category": "testing",
+      "path": "testing/Snapshot_Testing_Jest.md",
+      "tags": [
+        "testing",
+        "snapshot",
+        "jest"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Test_Coverage_Quality_Istanbul",
+      "name": "Test Coverage & Quality (Istanbul)",
+      "title": "Test Coverage & Quality (Istanbul)",
+      "category": "testing",
+      "path": "testing/Test_Coverage_Quality_Istanbul.md",
+      "tags": [
+        "testing",
+        "test",
+        "coverage",
+        "quality",
+        "istanbul"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Test_Driven_Development_TDD",
+      "name": "Test-Driven Development (TDD)",
+      "title": "Test-Driven Development (TDD)",
+      "category": "testing",
+      "path": "testing/Test_Driven_Development_TDD.md",
+      "tags": [
+        "testing",
+        "test",
+        "driven",
+        "development",
+        "tdd"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Unit_Test_Generation_Jest",
+      "name": "Unit Test Generation Jest",
+      "title": "Unit Test Generation (Jest)",
+      "category": "testing",
+      "path": "testing/Unit_Test_Generation_Jest.md",
+      "tags": [
+        "unit",
+        "test",
+        "generation",
+        "jest",
+        "testing"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "Visual_Regression_Testing_Playwright",
+      "name": "Visual Regression Testing (Playwright)",
+      "title": "Visual Regression Testing (Playwright)",
+      "category": "testing",
+      "path": "testing/Visual_Regression_Testing_Playwright.md",
+      "tags": [
+        "testing",
+        "visual",
+        "regression",
+        "playwright"
+      ],
+      "audience": "all",
+      "compatibleAgents": [
+        "github-copilot-cloud",
+        "github-copilot-local",
+        "cursor",
+        "claude",
+        "local-agent"
+      ],
+      "status": "active"
+    }
+  ]
+}
