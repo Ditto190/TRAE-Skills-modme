@@ -14,7 +14,8 @@ export interface ParsedFrontmatter {
 export function parseFrontmatter(markdown: string): ParsedFrontmatter {
   const normalized = markdown.replace(/^\uFEFF/, "");
 
-  if (!normalized.startsWith("---\n") && normalized !== "---") {
+  const match = normalized.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n?/);
+  if (!match) {
     return {
       frontmatter: null,
       body: normalized,
@@ -22,17 +23,8 @@ export function parseFrontmatter(markdown: string): ParsedFrontmatter {
     };
   }
 
-  const endMarker = normalized.indexOf("\n---\n", 4);
-  if (endMarker === -1) {
-    return {
-      frontmatter: null,
-      body: normalized,
-      hasFrontmatter: false,
-    };
-  }
-
-  const yamlSource = normalized.slice(4, endMarker);
-  const body = normalized.slice(endMarker + 5);
+  const yamlSource = match[1] ?? "";
+  const body = normalized.slice(match[0].length);
   const document = parseDocument(yamlSource);
 
   if (document.errors.length > 0) {
