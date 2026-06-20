@@ -13,12 +13,6 @@ These skills act as a knowledge base for agents, enabling them to generate produ
 
 Perfect for developers, engineers, and teams seeking **consistency, quality, and expert-level output** in every interaction.
 
-> [!WARNING]
-> My **TRAE repositories** will unfortunately be updated less frequently.  
-> I am currently **very busy** and **looking for a job** *(Customer / Technical Support or Developer)* so I can *afford my first home*.  
-> Until I achieve this **stability**, updates will be limited.  
->  
-> Thank you for your understanding! ❤️
 
 ---
 
@@ -98,6 +92,11 @@ Perfect for developers, engineers, and teams seeking **consistency, quality, and
 |  | TypeORM Entity Relations | [ℹ️](./backend/TypeORM_Relations.md) | [👆 View](./backend/TypeORM_Relations.md) |
 |  | Webhooks Implementation | [ℹ️](./backend/Webhooks_Implementation.md) | [👆 View](./backend/Webhooks_Implementation.md) |
 |  | WebSocket Implementation | [ℹ️](./backend/WebSocket_Implementation.md) | [👆 View](./backend/WebSocket_Implementation.md) |
+|  | Real-time Data Processing (Kafka) | [ℹ️](./backend/Real-time_Data_Processing_Kafka.md) | [👆 View](./backend/Real-time_Data_Processing_Kafka.md) |
+|  | Real-time GraphQL Subscriptions | [ℹ️](./backend/GraphQL_Subscriptions_Realtime.md) | [👆 View](./backend/GraphQL_Subscriptions_Realtime.md) |
+|  | WebSocket Scalability (Socket.io) | [ℹ️](./backend/WebSocket_Scalability_SocketIO.md) | [👆 View](./backend/WebSocket_Scalability_SocketIO.md) |
+|  | Type-Safe APIs with tRPC | [ℹ️](./backend/Type_Safe_APIs_tRPC.md) | [👆 View](./backend/Type_Safe_APIs_tRPC.md) |
+|  | Serverless Streaming & Webhooks at Scale | [ℹ️](./backend/Serverless_Streaming_Webhooks.md) | [👆 View](./backend/Serverless_Streaming_Webhooks.md) |
 | **🖥️ Frontend** | Browser Storage (LocalStorage/IndexedDB) | [ℹ️](./frontend/Browser_Storage.md) | [👆 View](./frontend/Browser_Storage.md) |
 |  | Canvas/WebGL Basics (Three.js) | [ℹ️](./frontend/Canvas_Threejs_Basics.md) | [👆 View](./frontend/Canvas_Threejs_Basics.md) |
 |  | CSS Grid vs Flexbox Guide | [ℹ️](./frontend/CSS_Grid_vs_Flexbox.md) | [👆 View](./frontend/CSS_Grid_vs_Flexbox.md) |
@@ -112,6 +111,8 @@ Perfect for developers, engineers, and teams seeking **consistency, quality, and
 |  | SVG Animation Techniques | [ℹ️](./frontend/SVG_Animation_Techniques.md) | [👆 View](./frontend/SVG_Animation_Techniques.md) |
 |  | Testing React Components (RTL) | [ℹ️](./frontend/React_Testing_Library.md) | [👆 View](./frontend/React_Testing_Library.md) |
 |  | Web Workers for Heavy Computation | [ℹ️](./frontend/Web_Workers.md) | [👆 View](./frontend/Web_Workers.md) |
+|  | Advanced WebGL with Three.js | [ℹ️](./frontend/WebGL_Advanced_Threejs.md) | [👆 View](./frontend/WebGL_Advanced_Threejs.md) |
+|  | Advanced Web Animations with Framer Motion | [ℹ️](./frontend/Web_Animations_Framer_Motion.md) | [👆 View](./frontend/Web_Animations_Framer_Motion.md) |
 | **📱 Mobile** | App Store Deployment Guide | [ℹ️](./mobile/App_Store_Deployment_Guide.md) | [👆 View](./mobile/App_Store_Deployment_Guide.md) |
 |  | Mobile Device Features | [ℹ️](./mobile/Mobile_Device_Features.md) | [👆 View](./mobile/Mobile_Device_Features.md) |
 |  | Mobile UI Styling (NativeWind) | [ℹ️](./mobile/Mobile_UI_Styling_NativeWind.md) | [👆 View](./mobile/Mobile_UI_Styling_NativeWind.md) |
@@ -122,6 +123,8 @@ Perfect for developers, engineers, and teams seeking **consistency, quality, and
 |  | React Native Setup (Expo) | [ℹ️](./mobile/React_Native_Setup_Expo.md) | [👆 View](./mobile/React_Native_Setup_Expo.md) |
 |  | Biometric Authentication (Expo) | [ℹ️](./mobile/Biometric_Authentication_Expo.md) | [👆 View](./mobile/Biometric_Authentication_Expo.md) |
 |  | Deep Linking (React Navigation) | [ℹ️](./mobile/Deep_Linking_React_Navigation.md) | [👆 View](./mobile/Deep_Linking_React_Navigation.md) |
+|  | Flutter Advanced State Management | [ℹ️](./mobile/Flutter_Advanced_State_Management.md) | [👆 View](./mobile/Flutter_Advanced_State_Management.md) |
+|  | React Native Performance Optimization | [ℹ️](./mobile/React_Native_Performance_Optimization.md) | [👆 View](./mobile/React_Native_Performance_Optimization.md) |
 | **🔧 DevOps** | Ansible Playbook Creation | [ℹ️](./devops/Ansible_Playbook_Creation.md) | [👆 View](./devops/Ansible_Playbook_Creation.md) |
 |  | Automated Database Backups | [ℹ️](./devops/Automated_Database_Backups.md) | [👆 View](./devops/Automated_Database_Backups.md) |
 |  | AWS Lambda Function Design | [ℹ️](./devops/AWS_Lambda_Function_Design.md) | [👆 View](./devops/AWS_Lambda_Function_Design.md) |
@@ -145,6 +148,9 @@ Perfect for developers, engineers, and teams seeking **consistency, quality, and
 |  | Serverless Framework Setup | [ℹ️](./devops/Serverless_Framework_Setup.md) | [👆 View](./devops/Serverless_Framework_Setup.md) |
 |  | SSL/TLS Setup (Certbot) | [ℹ️](./devops/SSL_TLS_Certbot_Setup.md) | [👆 View](./devops/SSL_TLS_Certbot_Setup.md) |
 |  | Terraform Best Practices (Advanced) | [ℹ️](./devops/Terraform_Advanced.md) | [👆 View](./devops/Terraform_Advanced.md) |
+|  | Docker Swarm Orchestration | [ℹ️](./devops/Docker_Swarm_Orchestration.md) | [👆 View](./devops/Docker_Swarm_Orchestration.md) |
+|  | Kubernetes Helm Charts | [ℹ️](./devops/Kubernetes_Helm_Charts.md) | [👆 View](./devops/Kubernetes_Helm_Charts.md) |
+|  | Edge Computing with Vercel & Cloudflare Workers | [ℹ️](./devops/Edge_Computing_Vercel_Cloudflare.md) | [👆 View](./devops/Edge_Computing_Vercel_Cloudflare.md) |
 | **🛡️ Security** | Content Security Policy (CSP) Setup | [ℹ️](./security/Content_Security_Policy_CSP.md) | [👆 View](./security/Content_Security_Policy_CSP.md) |
 |  | CSRF Protection Strategies | [ℹ️](./security/CSRF_Protection_Strategies.md) | [👆 View](./security/CSRF_Protection_Strategies.md) |
 |  | Dependency Vulnerability Scanning | [ℹ️](./security/Dependency_Vulnerability_Scanning.md) | [👆 View](./security/Dependency_Vulnerability_Scanning.md) |
@@ -156,6 +162,8 @@ Perfect for developers, engineers, and teams seeking **consistency, quality, and
 |  | OAuth2 & OIDC Implementation | [ℹ️](./security/OAuth2_OIDC_Implementation.md) | [👆 View](./security/OAuth2_OIDC_Implementation.md) |
 |  | Password Hashing Best Practices | [ℹ️](./security/Password_Hashing_Best_Practices.md) | [👆 View](./security/Password_Hashing_Best_Practices.md) |
 |  | Multi-factor Authentication (MFA) | [ℹ️](./backend/MFA_Implementation.md) | [👆 View](./backend/MFA_Implementation.md) |
+|  | API Security Penetration Testing | [ℹ️](./security/API_Security_Penetration_Testing.md) | [👆 View](./security/API_Security_Penetration_Testing.md) |
+|  | Zero Trust Architecture Implementation | [ℹ️](./security/Zero_Trust_Architecture.md) | [👆 View](./security/Zero_Trust_Architecture.md) |
 | **🧪 Testing** | API Integration Testing (Supertest) | [ℹ️](./testing/API_Integration_Testing_Supertest.md) | [👆 View](./testing/API_Integration_Testing_Supertest.md) |
 |  | Visual Regression Testing (Playwright) | [ℹ️](./testing/Visual_Regression_Testing_Playwright.md) | [👆 View](./testing/Visual_Regression_Testing_Playwright.md) |
 |  | Load & Performance Testing (k6) | [ℹ️](./testing/Load_Testing_k6.md) | [👆 View](./testing/Load_Testing_k6.md) |
@@ -167,6 +175,8 @@ Perfect for developers, engineers, and teams seeking **consistency, quality, and
 |  | Component Testing (RTL) | [ℹ️](./testing/Component_Testing_React_Testing_Library.md) | [👆 View](./testing/Component_Testing_React_Testing_Library.md) |
 |  | Mocking External Services (Jest) | [ℹ️](./testing/Mocking_External_Services_Jest.md) | [👆 View](./testing/Mocking_External_Services_Jest.md) |
 |  | Test Coverage & Quality (Istanbul) | [ℹ️](./testing/Test_Coverage_Quality_Istanbul.md) | [👆 View](./testing/Test_Coverage_Quality_Istanbul.md) |
+|  | Performance Testing with Lighthouse | [ℹ️](./testing/Performance_Testing_Lighthouse.md) | [👆 View](./testing/Performance_Testing_Lighthouse.md) |
+|  | Advanced End-to-End Testing with Playwright | [ℹ️](./testing/End-to-End_Testing_Playwright_Advanced.md) | [👆 View](./testing/End-to-End_Testing_Playwright_Advanced.md) |
 | **🤖 AI Engineering** | AI Agent Design Patterns | [ℹ️](./ai_engineering/AI_Agent_Design_Patterns.md) | [👆 View](./ai_engineering/AI_Agent_Design_Patterns.md) |
 |  | AI Model Evaluation | [ℹ️](./ai_engineering/AI_Model_Evaluation.md) | [👆 View](./ai_engineering/AI_Model_Evaluation.md) |
 |  | Fine-tuning Basics | [ℹ️](./ai_engineering/Fine_tuning_Basics.md) | [👆 View](./ai_engineering/Fine_tuning_Basics.md) |
@@ -182,10 +192,18 @@ Perfect for developers, engineers, and teams seeking **consistency, quality, and
 |  | Distributed Training (Horovod) | [ℹ️](./ai_engineering/Distributed_Training_Horovod.md) | [👆 View](./ai_engineering/Distributed_Training_Horovod.md) |
 |  | Computer Vision Object Detection | [ℹ️](./ai_engineering/Computer_Vision_Object_Detection.md) | [👆 View](./ai_engineering/Computer_Vision_Object_Detection.md) |
 |  | Data Drift Detection | [ℹ️](./ai_engineering/Data_Drift_Detection.md) | [👆 View](./ai_engineering/Data_Drift_Detection.md) |
+|  | Generative AI Image Synthesis | [ℹ️](./ai_engineering/Generative_AI_Image_Synthesis.md) | [👆 View](./ai_engineering/Generative_AI_Image_Synthesis.md) |
+|  | Natural Language to SQL (NL2SQL) | [ℹ️](./ai_engineering/Natural_Language_to_SQL.md) | [👆 View](./ai_engineering/Natural_Language_to_SQL.md) |
+|  | AI Agents with LangGraph | [ℹ️](./ai_engineering/AI_Agents_LangGraph.md) | [👆 View](./ai_engineering/AI_Agents_LangGraph.md) |
+|  | Advanced Vector Databases (Pinecone & Weaviate) | [ℹ️](./ai_engineering/Vector_Databases_Pinecone_Weaviate.md) | [👆 View](./ai_engineering/Vector_Databases_Pinecone_Weaviate.md) |
+|  | Time Series Forecasting with LSTM | [ℹ️](./ai_engineering/Time_Series_Forecasting_LSTM.md) | [👆 View](./ai_engineering/Time_Series_Forecasting_LSTM.md) |
+|  | Recommender Systems with Collaborative Filtering | [ℹ️](./ai_engineering/Recommender_Systems_Collaborative_Filtering.md) | [👆 View](./ai_engineering/Recommender_Systems_Collaborative_Filtering.md) |
 | **🏗️ Architecture** | Adapter Pattern in TypeScript | [ℹ️](./architecture/Adapter_Pattern_TypeScript.md) | [👆 View](./architecture/Adapter_Pattern_TypeScript.md) |
 |  | Clean Architecture in Node.js | [ℹ️](./architecture/Clean_Architecture_Node.md) | [👆 View](./architecture/Clean_Architecture_Node.md) |
 |  | CQRS Pattern Implementation | [ℹ️](./architecture/CQRS_Pattern_Implementation.md) | [👆 View](./architecture/CQRS_Pattern_Implementation.md) |
 |  | Domain-Driven Design (DDD) Basics | [ℹ️](./architecture/Domain_Driven_Design_Basics.md) | [👆 View](./architecture/Domain_Driven_Design_Basics.md) |
+|  | CQRS Implementation | [ℹ️](./architecture/CQRS_Implementation.md) | [👆 View](./architecture/CQRS_Implementation.md) |
+|  | Event Sourcing Pattern | [ℹ️](./architecture/Event_Sourcing_Pattern.md) | [👆 View](./architecture/Event_Sourcing_Pattern.md) |
 | **📦 Code Mgmt** | Branch Protection Rules | [ℹ️](./code_management/Branch_Protection_Rules.md) | [👆 View](./code_management/Branch_Protection_Rules.md) |
 |  | Code Review Guidelines | [ℹ️](./code_management/Code_Review_Guidelines.md) | [👆 View](./code_management/Code_Review_Guidelines.md) |
 |  | Dead Code Elimination | [ℹ️](./code_management/Dead_Code_Elimination.md) | [👆 View](./code_management/Dead_Code_Elimination.md) |
@@ -196,6 +214,16 @@ Perfect for developers, engineers, and teams seeking **consistency, quality, and
 |  | Monorepo Setup (Turborepo) | [ℹ️](./code_management/Monorepo_Setup_Turborepo.md) | [👆 View](./code_management/Monorepo_Setup_Turborepo.md) |
 |  | NPM Scripts Automation | [ℹ️](./code_management/Npm_Scripts_Automation.md) | [👆 View](./code_management/Npm_Scripts_Automation.md) |
 |  | Semantic Versioning | [ℹ️](./code_management/Semantic_Versioning_Strategy.md) | [👆 View](./code_management/Semantic_Versioning_Strategy.md) |
+|  | Git Workflow Strategies | [ℹ️](./code_management/Git_Workflow_Strategies.md) | [👆 View](./code_management/Git_Workflow_Strategies.md) |
+|  | Advanced Dependency Management (Dependabot/Renovate) | [ℹ️](./code_management/Advanced_Dependency_Management_Dependabot_Renovate.md) | [👆 View](./code_management/Advanced_Dependency_Management_Dependabot_Renovate.md) |
+|  | Code Documentation Standards (JSDoc/TSDoc) | [ℹ️](./code_management/Code_Documentation_Standards_JSDoc_TSDoc.md) | [👆 View](./code_management/Code_Documentation_Standards_JSDoc_TSDoc.md) |
+|  | Pull Request Templates & Standard Operating Procedure | [ℹ️](./code_management/Pull_Request_Templates_SOP.md) | [👆 View](./code_management/Pull_Request_Templates_SOP.md) |
+|  | Repository Structure & Organization | [ℹ️](./code_management/Repository_Structure_Organization.md) | [👆 View](./code_management/Repository_Structure_Organization.md) |
+|  | Dependency Pinning & Reproducible Builds | [ℹ️](./code_management/Dependency_Pinning_Reproducible_Builds.md) | [👆 View](./code_management/Dependency_Pinning_Reproducible_Builds.md) |
+|  | Git Rebase, Merge & Squash Guidelines | [ℹ️](./code_management/Git_Rebase_Merge_Squash_Guidelines.md) | [👆 View](./code_management/Git_Rebase_Merge_Squash_Guidelines.md) |
+|  | Pre-Commit & Pre-Push Hooks Automation | [ℹ️](./code_management/Pre-Commit_Pre-Push_Hooks_Automation.md) | [👆 View](./code_management/Pre-Commit_Pre-Push_Hooks_Automation.md) |
+|  | CHANGELOG Conventional Changelog Auto-Generation | [ℹ️](./code_management/CHANGELOG_Conventional_Changelog_Auto_Generation.md) | [👆 View](./code_management/CHANGELOG_Conventional_Changelog_Auto_Generation.md) |
+|  | Repository Archiving & Legacy Code Retirement | [ℹ️](./code_management/Repository_Archiving_Legacy_Code_Retirement.md) | [👆 View](./code_management/Repository_Archiving_Legacy_Code_Retirement.md) |
 | **📝 Docs** | ADR Records | [ℹ️](./documentation/Architectural_Decision_Records_ADR.md) | [👆 View](./documentation/Architectural_Decision_Records_ADR.md) |
 |  | API Documentation | [ℹ️](./documentation/API_Documentation_Best_Practices.md) | [👆 View](./documentation/API_Documentation_Best_Practices.md) |
 |  | API Design Guidelines (REST) | [ℹ️](./documentation/API_Design_Guidelines_REST.md) | [👆 View](./documentation/API_Design_Guidelines_REST.md) |
